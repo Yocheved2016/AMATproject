@@ -1,6 +1,6 @@
 
-from Cifar10Extractor import  Cifar10Extractor
 from Cifar100Extractor import Cifar100Extractor
+from Cifar10Extractor import Cifar10Extractor
 
 
 def extract_data():
@@ -14,8 +14,9 @@ def extract_data():
     cifar100_file_paths=['./cifar-100-python/train','./cifar-100-python/test']
 
     # labels:[b'fish', b'flowers', b'fruit_and_vegetables', b'people', b'trees']
-    cifar100_labels=[1,4,2,14,17]
+    cifar100_labels=[1,2,4,14,17]
 
+    # {1:b'fish',2: b'flowers',4:b'fruit_and_vegetables',14: b'people', 17:b'trees'}
     #extract data for cifar-10
     cifar10Extractor=Cifar10Extractor()
 
@@ -38,6 +39,7 @@ def extract_data():
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
+ 
     extract_data()
 
 
