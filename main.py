@@ -10,7 +10,7 @@ def extract_data():
                           '../cifar-10-batches-py/data_batch_3',
                           '../cifar-10-batches-py/data_batch_4',
                           '../cifar-10-batches-py/data_batch_5',
-                         '../cifar-10-batches-py/test_batch']
+                          '../cifar-10-batches-py/test_batch']
 
     cifar100_file_paths=['../cifar-100-python/train','../cifar-100-python/test']
 
@@ -20,11 +20,11 @@ def extract_data():
     #extract data for cifar-10
     cifar10Extractor=Cifar10Extractor()
 
-    #read the image
+    # #read the image
     cifar10Extractor.read_all(cifar10_file_paths)
+    cifar10Extractor.write_images('../images')
     create_or_add_csv(cifar10Extractor.file_names,cifar10Extractor.labels,'cifar10','../cifar_data.csv')
-    #write the image
-    #cifar10Extractor.write_images('../images')
+
 
     # extract data for cifar-100
 
@@ -32,10 +32,12 @@ def extract_data():
 
     # read the image
     cifar100Extractor.read_all(cifar100_file_paths)
-    create_or_add_csv(cifar100Extractor.file_names,cifar100Extractor.labels,'cifar100','../cifar_data.csv')
 
     #write the image
-    #cifar100Extractor.write_images('../images',cifar100_labels)
+    cifar100Extractor.write_images('../images',cifar100_labels)
+    create_or_add_csv(cifar100Extractor.file_names,cifar100Extractor.labels,'cifar100','../cifar_data.csv')
+
+
 
 
 
