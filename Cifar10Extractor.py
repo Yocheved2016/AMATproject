@@ -29,8 +29,7 @@ class Cifar10Extractor:
     def write_images(self, path, labels_images=[]):
 
         for i in range(len(self.images)):
-            img=self.images[i]
-            img = self.images[i]
-            cv2.imwrite(f'{path}/{self.file_names[i].decode("ascii")}', img)
+            img_rgb=cv2.cvtColor(self.images[i].astype('uint8') ,cv2.COLOR_RGB2BGR)
+            cv2.imwrite(f'{path}/{self.file_names[i].decode("ascii")}', img_rgb)
 
 

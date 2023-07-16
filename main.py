@@ -1,7 +1,7 @@
 from Cifar10Extractor import Cifar10Extractor
 from Cifar100Extractor import Cifar100Extractor
 from CreateCsv import create_or_add_csv
-from DataVisualization import DataVisualization
+from Visualization import DataVisualization
 
 
 def extract_data():
@@ -26,6 +26,7 @@ def extract_data():
     # write the image
     # cifar10Extractor.write_images('../images')
 
+
     # extract data for cifar-100
 
     cifar100Extractor = Cifar100Extractor()
@@ -33,6 +34,7 @@ def extract_data():
     # read the image
     cifar100Extractor.read_all(cifar100_file_paths)
     create_or_add_csv(cifar100Extractor.file_names, cifar100Extractor.labels, 'cifar100', '../cifar_data.csv')
+
 
     # write the image
     # cifar100Extractor.write_images('../images',cifar100_labels)
