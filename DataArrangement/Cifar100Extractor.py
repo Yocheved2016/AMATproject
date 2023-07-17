@@ -40,4 +40,4 @@ class Cifar100Extractor:
 
     def extract_data(self):
         self.read_all()
-        #self.write_images()
+        self.write_images()
