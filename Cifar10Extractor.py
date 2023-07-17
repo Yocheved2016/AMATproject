@@ -4,6 +4,7 @@ import numpy as np
 import zope.interface
 from DateExtractor import DateExtractor
 
+
 @zope.interface.implementer(DateExtractor)
 class Cifar10Extractor:
 
@@ -29,7 +30,5 @@ class Cifar10Extractor:
     def write_images(self, path, labels_images=[]):
 
         for i in range(len(self.images)):
-            img_rgb=cv2.cvtColor(self.images[i].astype('uint8') ,cv2.COLOR_RGB2BGR)
+            img_rgb = cv2.cvtColor(self.images[i].astype('uint8'), cv2.COLOR_RGB2BGR)
             cv2.imwrite(f'{path}/{self.file_names[i].decode("ascii")}', img_rgb)
-
-
