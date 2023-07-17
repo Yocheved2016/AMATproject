@@ -2,7 +2,7 @@ import pickle
 class LabelMapperCifar10:
 
     def __init__(self):
-        self.meta_path = '../cifar-10-batches-py/batches.meta'
+        self.meta_path = '../../cifar-10-batches-py/batches.meta'
 
     def load_meta(self, file_path):
         with open(file_path, 'rb') as fo:
