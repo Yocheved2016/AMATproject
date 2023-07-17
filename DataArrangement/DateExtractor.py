@@ -2,11 +2,14 @@ import zope.interface
 
 class DateExtractor(zope.interface.Interface):
 
-    def read_binary(self, filePath):
+    def read_binary(self,filePaths,images_path,labels_images=[]):
         pass
 
-    def read_all(self, filePaths):
+    def read_all(self):
         pass
 
-    def write_images(self, path, labels_images=[]):
+    def write_images(self):
+        pass
+
+    def extract_data(self):
         pass
