@@ -4,7 +4,6 @@ from matplotlib import pyplot as plt
 import numpy as np
 from sklearn.manifold import TSNE
 
-
 class DataVisualization:
     def tSNE(self, csvPath, Imagespath):
         df = pd.read_csv(csvPath)
@@ -46,7 +45,6 @@ class DataVisualization:
 
         plt.savefig('../plot.jpg')
         plt.show()
-
         def bar_plot(csv_file):
             df = pd.read_csv(csv_file)
             label_counts = df["label"].value_counts()
@@ -55,3 +53,4 @@ class DataVisualization:
 
             # Show the plot
             plt.show()
+
