@@ -2,6 +2,8 @@ import pickle
 import csv
 
 def load_cifar10_labels(file_path):
+    def __init__(self):
+        self.meta_path = '../../cifar-10-batches-py/batches.meta'
 
     with open(file_path, 'rb') as fo:
         meta_dict = pickle.load(fo, encoding='bytes')
