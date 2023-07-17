@@ -13,6 +13,11 @@ def create_or_add_csv(filenames, labels, origin, output_file):
             'origin': origin
         })
 
+    desired_labels_cifar10 = list(range(10))  # 0-9
+    desired_labels_cifar100 = [1, 4, 2, 14, 17]
+    filtered_df = data[(data['origin'] == 'cifar10') & data['label'].isin(desired_labels_cifar10) |
+                     (data['origin'] == 'cifar100') & data['label'].isin(desired_labels_cifar100)]
+
     file_exists = False
     try:
         with open(output_file, mode='r'):
@@ -27,7 +32,7 @@ def create_or_add_csv(filenames, labels, origin, output_file):
         if not file_exists:
             writer.writeheader()
 
-        writer.writerows(data)
+        writer.writerows(filtered_df)
 
 
 def train_test_validation_split(csv_path, test_size, validation_size):
