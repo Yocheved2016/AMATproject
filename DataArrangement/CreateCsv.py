@@ -13,6 +13,8 @@ def create_or_add_csv(filenames, labels, origin, output_file):
             'origin': origin
         })
 
+    #turn data into a pandas df.
+
     desired_labels_cifar10 = list(range(10))  # 0-9
     desired_labels_cifar100 = [1, 4, 2, 14, 17]
     filtered_df = data[(data['origin'] == 'cifar10') & data['label'].isin(desired_labels_cifar10) |

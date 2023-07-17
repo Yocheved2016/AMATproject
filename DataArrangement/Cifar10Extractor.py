@@ -2,8 +2,8 @@ import pickle
 import cv2
 import numpy as np
 import zope.interface
-from DateExtractor import DateExtractor
 
+from .DateExtractor import DateExtractor
 @zope.interface.implementer(DateExtractor)
 class Cifar10Extractor:
 

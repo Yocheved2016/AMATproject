@@ -1,4 +1,5 @@
 import pickle
+
 class LabelMapperCifar10:
 
     def __init__(self):
