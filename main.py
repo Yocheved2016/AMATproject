@@ -1,8 +1,7 @@
-from Cifar10Extractor import Cifar10Extractor
-from Cifar100Extractor import Cifar100Extractor
-from CreateCsv import create_or_add_csv
-from Visualization import DataVisualization
 
+from .DataArrangement.Cifar10Extractor import Cifar10Extractor
+from .DataArrangement.Cifar100Extractor import Cifar100Extractor
+from .DataArrangement.CreateCsv import create_or_add_csv
 
 def arrange_data():
 
