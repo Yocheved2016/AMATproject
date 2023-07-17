@@ -2,11 +2,7 @@ import pickle
 import cv2
 import numpy as np
 import zope.interface
-<<<<<<< HEAD
-from .DateExtractor import DateExtractor
-=======
 from .DataExtractor import DataExtractor
->>>>>>> 353a0582ea516959c5ea4af79a2b26878eb8ef4a
 
 
 @zope.interface.implementer(DataExtractor)
@@ -44,4 +40,4 @@ class Cifar100Extractor:
 
     def extract_data(self):
         self.read_all()
-        self.write_images()
+        #self.write_images()
