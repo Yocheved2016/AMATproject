@@ -2,9 +2,15 @@ import pickle
 import cv2
 import numpy as np
 import zope.interface
+<<<<<<< HEAD
 
 from .DateExtractor import DateExtractor
 @zope.interface.implementer(DateExtractor)
+=======
+from .DataExtractor import DataExtractor
+
+@zope.interface.implementer(DataExtractor)
+>>>>>>> 353a0582ea516959c5ea4af79a2b26878eb8ef4a
 class Cifar10Extractor:
 
     def __init__(self,filePaths,images_path):

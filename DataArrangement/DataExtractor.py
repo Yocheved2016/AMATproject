@@ -1,6 +1,6 @@
 import zope.interface
 
-class DateExtractor(zope.interface.Interface):
+class DataExtractor(zope.interface.Interface):
 
     def read_binary(self,filePaths,images_path,labels_images=[]):
         pass
