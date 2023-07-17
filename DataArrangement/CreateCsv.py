@@ -19,7 +19,14 @@ def create_or_add_csv(filenames, labels, origin, output_file):
     data_df = pd.DataFrame(data)
     filtered_df = data_df[(data_df['origin'] == 'cifar10') & data_df['label'].isin(desired_labels_cifar10) |
                           (data_df['origin'] == 'cifar100') & data_df['label'].isin(desired_labels_cifar100)]
-
+    replacements = {
+        1: 10,
+        2: 11,
+        4: 12,
+        14: 13,
+        17: 14
+    }
+    filtered_df.loc[(filtered_df['origin'] == 'cifar100') & (filtered_df['label'].isin(replacements.keys())), 'label'] = filtered_df['label'].replace(replacements)
     file_exists = os.path.isfile(output_file)
 
     with open(output_file, mode='a', newline='') as file:
