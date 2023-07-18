@@ -3,9 +3,10 @@ import numpy as np
 
 
 
-def normalizeData(data):
+def normalize_data(data):
+    shape_data = data.shape
+    flatten_data = data.flatten()
+    normalized_data = preprocessing.normalize([flatten_data])
+    normalized_data = normalized_data.reshape(shape_data)
 
-    x_array = np.array([2,3,5,6,7,4,8,7,6])
-    normalized_data = preprocessing.normalize([data])
-    print(normalized_data)
     return normalized_data

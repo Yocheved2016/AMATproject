@@ -26,3 +26,5 @@ def add_image(path,lable):
     resize_image(path)
     #transform lable
     #write it to csv
+
+from sklearn import
