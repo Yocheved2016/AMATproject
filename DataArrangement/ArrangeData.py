@@ -1,7 +1,7 @@
 from .Cifar100Extractor import Cifar100Extractor
 from .Cifar10Extractor import Cifar10Extractor
 from .CreateCsv import create_or_add_csv, train_test_validation_split
-
+#from .Preprocessing import normalize_data
 
 def arrange_data(cifar10_file_paths,cifar100_file_paths,cifar100_labels,images_path):
 
