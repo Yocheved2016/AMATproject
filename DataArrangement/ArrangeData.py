@@ -12,11 +12,9 @@ def arrange_data(cifar10_file_paths,cifar100_file_paths,cifar100_labels,images_p
 
     cifar100Extractor = Cifar100Extractor(cifar100_file_paths,images_path,cifar100_labels)
     cifar100Extractor.extract_data()
-    print("shape: ",cifar10Extractor.images.shape)
-    # normalize_Data=normalize_data(cifar10Extractor.images)
-    print("normalize_Data: ", normalize_Data.shape)
-    # create_or_add_csv(cifar10Extractor.file_names, cifar10Extractor.labels, 'cifar10',"./data/data.csv")
 
-    # create_or_add_csv(cifar100Extractor.file_names, cifar100Extractor.labels, 'cifar100', "./data/data.csv")
+    create_or_add_csv(cifar10Extractor.file_names, cifar10Extractor.labels, 'cifar10',"./data/data.csv")
+
+    create_or_add_csv(cifar100Extractor.file_names, cifar100Extractor.labels, 'cifar100', "./data/data.csv")
 
 
