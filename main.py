@@ -4,9 +4,6 @@ from DataArrangement.ArrangeData import arrange_data
 from AMATproject.DataArrangement.CreateCsv import train_test_validation_split
 
 
-# Press the green button in the gutter to run the script.
-from DataArrangement.CreateCsv import train_test_validation_split
-
 if __name__ == '__main__':
 
     cifar10_file_paths = ['./../cifar-10-batches-py/data_batch_1',
