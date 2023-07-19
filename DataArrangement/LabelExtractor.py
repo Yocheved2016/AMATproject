@@ -1,22 +1,13 @@
 import pickle
-<<<<<<< HEAD
-
-class LabelMapperCifar10:
-=======
 import csv
->>>>>>> 353a0582ea516959c5ea4af79a2b26878eb8ef4a
 
 def load_cifar10_labels(file_path):
-    def __init__(self):
-        self.meta_path = '../../cifar-10-batches-py/batches.meta'
 
     with open(file_path, 'rb') as fo:
         meta_dict = pickle.load(fo, encoding='bytes')
     label_names = meta_dict[b'label_names']
     label_mapping = {label_num: label_name.decode('utf-8') for label_num, label_name in enumerate(label_names)}
     return label_mapping
-
-
 
 
 def load_cifar100_labels(file_path):
@@ -33,7 +24,7 @@ def write_lable_map_csv(csv_path):
     dict[12] = 'fruit_and_vegetables'
     dict[13] = 'people'
     dict[14] = 'trees'
-    fieldnames = ['Index', 'Label']
+    fieldnames = ['label', 'label_name']
     with open(csv_path, 'w') as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
