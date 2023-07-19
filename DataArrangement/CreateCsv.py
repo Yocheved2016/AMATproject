@@ -45,7 +45,7 @@ def create_or_add_csv(filenames, labels, origin, output_file):
 def train_test_validation_split(test_size, validation_size):
 
 
-    df = pd.read_csv('./data/data.csv')
+    df = pd.read_csv('../data/data.csv')
 
     # shuffle the df
     df = df.sample(frac=1, random_state=42)
@@ -59,8 +59,8 @@ def train_test_validation_split(test_size, validation_size):
     train_df = df.iloc[validation_index:]
 
     # write each part to csv
-    test_df.to_csv('../data/test_data', index=False)
-
-    validation_df.to_csv('../data/validation_data.csv', index=False)
-    train_df.to_csv('../data/train_data.csv', index=False)
+    # test_df.to_csv('../data/test_data', index=False)
+    #
+    # validation_df.to_csv('../data/validation_data.csv', index=False)
+    # train_df.to_csv('../data/train_data.csv', index=False)
 

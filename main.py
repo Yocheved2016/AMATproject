@@ -1,7 +1,7 @@
+from AMATproject.DataArrangement.CreateCsv import train_test_validation_split
 from DataArrangement.ArrangeData import arrange_data
 
 # Press the green button in the gutter to run the script.
-from AMATproject.DataArrangement.CreateCsv import train_test_validation_split
 
 
 if __name__ == '__main__':
