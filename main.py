@@ -1,5 +1,5 @@
 from DataArrangement.ArrangeData import arrange_data
-
+from Visualization.Visualization import DataVisualization
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
@@ -16,6 +16,10 @@ if __name__ == '__main__':
 
     cifar100_labels = [1, 4, 2, 14, 17]
 
-    arrange_data(cifar10_file_paths,cifar100_file_paths,cifar100_labels,"./../images")
+    #arrange_data(cifar10_file_paths,cifar100_file_paths,cifar100_labels,"./../images")
+
+    dv = DataVisualization()
+    dv.train_image_samples('./data/data.csv', 'labels.csv')
+
 
 
