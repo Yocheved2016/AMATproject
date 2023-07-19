@@ -3,7 +3,6 @@ from Visualization.Visualization import DataVisualization
 
 from DataArrangement.CreateCsv import train_test_validation_split
 
-
 if __name__ == '__main__':
 
     cifar10_file_paths = ['./../cifar-10-batches-py/data_batch_1',
@@ -21,10 +20,11 @@ if __name__ == '__main__':
 
     #arrange_data(cifar10_file_paths,cifar100_file_paths,cifar100_labels,"./../images")
 
+    #train_test_validation_split(0.15,0.15)
+
     dv = DataVisualization()
-    dv.train_image_samples('./data/data.csv', 'labels.csv')
+    dv.train_image_samples('./data/data.csv','labels.csv')
 
 
-    train_test_validation_split(0.15,0.15)
 
 

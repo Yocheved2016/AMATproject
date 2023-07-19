@@ -9,7 +9,7 @@ def create_or_add_csv(filenames, labels, origin, output_file):
     data = []
     for filename, label in zip(filenames, labels):
         data.append({
-            'filename': filename.decode("ascii"),
+            'filename': filename.item(),
             'label': label,
             'origin': origin
         })

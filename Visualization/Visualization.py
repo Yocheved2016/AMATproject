@@ -75,12 +75,15 @@ class DataVisualization:
                 img_path = row['filename']
                 img = cv2.imread(f'./../images/{img_path}')
 
-                ax = axes[i // 5, i % 5]
-                ax.imshow(img)
-                ax.axis('off')
+                # Convert BGR to RGB
+                img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
+                ax = axes[i // 5, i % 5]
+                ax.imshow(img_rgb)
+                ax.axis('off')
 
             plt.tight_layout()
             plt.show()
 
             plt.close()
+
