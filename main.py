@@ -1,8 +1,7 @@
 from DataArrangement.ArrangeData import arrange_data
+from Visualization.Visualization import DataVisualization
 
-# Press the green button in the gutter to run the script.
-from AMATproject.DataArrangement.CreateCsv import train_test_validation_split
-
+from DataArrangement.CreateCsv import train_test_validation_split
 
 if __name__ == '__main__':
 
@@ -19,8 +18,13 @@ if __name__ == '__main__':
 
     cifar100_labels = [1, 4, 2, 14, 17]
 
-    arrange_data(cifar10_file_paths,cifar100_file_paths,cifar100_labels,"./../images")
+    #arrange_data(cifar10_file_paths,cifar100_file_paths,cifar100_labels,"./../images")
 
-    train_test_validation_split(0.15,0.15)
+    #train_test_validation_split(0.15,0.15)
+
+    dv = DataVisualization()
+    dv.train_image_samples('./data/data.csv','labels.csv')
+
+
 
 
