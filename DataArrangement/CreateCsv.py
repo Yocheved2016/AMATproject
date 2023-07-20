@@ -47,6 +47,7 @@ def train_test_validation_split(test_size, validation_size):
 
     df = pd.read_csv('././data/data.csv')
 
+
     # shuffle the df
     df = df.sample(frac=1, random_state=42)
 
@@ -63,4 +64,5 @@ def train_test_validation_split(test_size, validation_size):
 
     validation_df.to_csv('././data/validation_data.csv', index=False)
     train_df.to_csv('././data/train_data.csv', index=False)
+
 
