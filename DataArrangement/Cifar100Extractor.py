@@ -41,11 +41,11 @@ class Cifar100Extractor:
 
             rotated_image = self.data_augmentation(img_rgb)  # Assuming this function returns a rotated image
 
-            rotated_file_name = f'rotated_{self.file_names[i].decode("ascii")}'.encode("ascii")
+            rotated_file_name = f'rotated_{self.file_names[i].decode("ascii")}'
             cv2.imwrite(f'{self.images_path}/{rotated_file_name}', rotated_image)
 
             self.labels = np.concatenate((self.labels, [self.labels[i]]))
-            self.file_names = np.concatenate((self.file_names, [rotated_file_name]))
+            self.file_names = np.concatenate((self.file_names, [rotated_file_name.encode("ascii")]))
 
     def extract_data(self):
         self.read_all()
