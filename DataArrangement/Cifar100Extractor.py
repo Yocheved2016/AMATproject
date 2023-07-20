@@ -37,11 +37,11 @@ class Cifar100Extractor:
 
         for i in images_filtered:
             img_rgb = cv2.cvtColor(self.images[i].astype('uint8'), cv2.COLOR_RGB2BGR)
-            cv2.imwrite(f'{self.images_path}/{self.file_names[i].item()}', img_rgb)
+            cv2.imwrite(f'{self.images_path}/{self.file_names[i].decode("ascii")}', img_rgb)
 
             rotated_image = self.data_augmentation(img_rgb)  # Assuming this function returns a rotated image
 
-            rotated_file_name = f'rotated_{self.file_names[i].item()}'
+            rotated_file_name = f'rotated_{self.file_names[i].decode("ascii")}'.encode("ascii")
             cv2.imwrite(f'{self.images_path}/{rotated_file_name}', rotated_image)
 
             self.labels = np.concatenate((self.labels, [self.labels[i]]))
