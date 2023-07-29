@@ -1,6 +1,7 @@
 from DataArrangement.CreateCsv import train_test_validation_split
 from DataArrangement.ArrangeData import arrange_data
 from Visualization.Visualization import DataVisualization
+from DataArrangement.CreateCsv import train_test_validation_split
 
 if __name__ == '__main__':
     cifar10_file_paths = ['./../cifar-10-batches-py/data_batch_1',
