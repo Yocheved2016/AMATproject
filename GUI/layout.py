@@ -2,16 +2,16 @@ import dash_bootstrap_components as dbc
 from dash import dcc, html
 
 # Constants
-img_width = 1100
-img_height = 650
+img_width = 700
+img_height = 700
 scale_factor = 0.5
 
 video_modal = html.Div(
     dbc.Modal(
         [
             dbc.ModalHeader("Video Feed"),
-            dbc.ModalBody(html.Img(id="video-feed", src="/video_feed", width=450, height=250)),
-            dbc.ModalFooter(dbc.Button("Take Photo", id="take-photo-btn", color="primary", className="mr-2"),)
+            dbc.ModalBody(html.Img(id="video-feed", src="/video_feed", width=400, height=300)),
+            dbc.ModalFooter(dbc.Button("Take Photo", id="take-photo-btn", color="primary", className="mr-1"),)
         ],
         id="video-modal",
         size="md",
@@ -41,14 +41,15 @@ layout = dbc.Container([
     dbc.Button('Use Camera', id='open-modal-btn'),
     video_modal,
     dcc.Store(id='cropped-image-store', data=None),  # Store the cropped image data
+    dcc.Store(id='original-image-store', data=None),
     dbc.Row([
         dbc.Col(
             dbc.Container(id='output-image-upload'),
-            width=6
+            width=5
         ),
         dbc.Col(
             dbc.Container(id="cropped-image-container"),
-            width=6
+            width=5
         ),
     ]),
     dbc.Row([
@@ -77,7 +78,7 @@ def parse_contents(fig, filename):
     ],
         style={
             'width': '100%',
-            'height': '400px',
+            'height': '450px',
             'textAlign': 'center',
             'padding': '20px'
         },

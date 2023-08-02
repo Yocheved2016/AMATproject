@@ -1,5 +1,5 @@
 from dash import Output, Input, State, no_update, callback_context
-from GUI.utils import VideoCamera, image_to_base64, base64_to_image, get_prediction
+from GUI.utils import VideoCamera, image_to_base64, base64_to_image, predict
 from dash.exceptions import PreventUpdate
 import plotly.graph_objects as go
 from GUI.layout import img_width, img_height, scale_factor, parse_contents
@@ -48,7 +48,6 @@ def register_callbacks(app):
                         yref="y",
                         opacity=1.0,
                         layer="below",
-                        sizing="stretch",
                         source=list_of_contents)
                 )
 
@@ -94,7 +93,6 @@ def register_callbacks(app):
                     yref="y",
                     opacity=1.0,
                     layer="below",
-                    sizing="stretch",
                     source="data:image/jpeg;base64," + base64.b64encode(frame).decode("utf-8"))
             )
 
@@ -123,10 +121,10 @@ def register_callbacks(app):
             image = Image.open(io.BytesIO(image_bytes))
 
             image_width, image_height = image.size
-            left = (image_width - img_width) / 2
-            top = (image_height - img_height) / 2
-            right = (image_width + img_width) / 2
-            bottom = (image_height + img_height) / 2
+            left = 0
+            top = 0
+            right = image_width
+            bottom = image_height
 
             cropped_image = image.crop((left, top, right, bottom))
 
@@ -150,7 +148,6 @@ def register_callbacks(app):
                     yref="y",
                     opacity=1.0,
                     layer="below",
-                    sizing="stretch",
                     source=cropped_image)
             )
             fig_cropped.update_layout(
@@ -161,38 +158,19 @@ def register_callbacks(app):
 
             cropped_image_base64 = image_to_base64(cropped_image)
 
-            return dbc.Card([
-                html.H5('cropped image'),
-                dcc.Graph(figure=fig_cropped,
-                          config={'displayModeBar': False},  # Disable the mode bar
-                          style={
-                              'width': '100%',
-                              'height': '100%',  # Take full height of the card
-                              'padding': 0,  # Remove padding to fit the figure completely
-                          }, ),
-            ],
-                style={
-                    'width': '100%',
-                    'height': '400px',
-                    'textAlign': 'center',
-                    'padding': '20px'
-                },
-            ), cropped_image_base64
+            return parse_contents(fig_cropped, 'cropped image' ),cropped_image_base64
 
         return no_update
 
     @app.callback(
         Output("predicted-class", "children"),
         Input("predict-button", "n_clicks"),
-        State("cropped-image-store", "data")  # Get the cropped image data from the Store
+        State("cropped-image-store", "data")
     )
     def predict_image(n_clicks, cropped_image_data):
         if n_clicks and cropped_image_data:
-            # Convert the base64-encoded string back to a PIL Image object
             cropped_image = base64_to_image(cropped_image_data)
-
-            # Call the external predict function to get the predicted class
-            predicted_class = get_prediction('./classification_model.h5',cropped_image)  # Replace "predict" with your actual prediction function
+            predicted_class = predict(cropped_image)
             return f"Predicted Class: {predicted_class}"
         return no_update
 
@@ -213,4 +191,3 @@ def register_callbacks(app):
         elif "take-photo-btn" in prop_id and is_open:
             return not is_open, take_photo_clicks + 1
         raise PreventUpdate
-

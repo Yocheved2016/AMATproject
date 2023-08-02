@@ -5,7 +5,7 @@ from GUI.callbacks import register_callbacks
 from GUI.server import server
 
 
-app = Dash(__name__, external_stylesheets=[dbc.themes.QUARTZ], server=server)
+app = Dash(__name__, external_stylesheets=[dbc.themes.VAPOR], server=server)
 app.layout = layout
 
 register_callbacks(app)
