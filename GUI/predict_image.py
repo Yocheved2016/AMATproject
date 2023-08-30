@@ -47,7 +47,7 @@ def preprocess_image(image):
 
 def anomalys_detection(image):
 
-    anomalys_detector = pickle.load(open('anomalys_detector_v2.sav', 'rb'))
+    anomalys_detector = pickle.load(open('../model/anomalys_detector_v3_clf_.sav', 'rb'))
     _model=Model(inputs=model.input,outputs=model.get_layer('dense_5').output)
     med_prediction=_model.predict(image)
     is_anom=anomalys_detector.predict(med_prediction)
