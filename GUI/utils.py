@@ -1,9 +1,12 @@
 import base64
 import io
+from io import BytesIO
+import requests
 from PIL import Image
 import cv2
-import requests
-from GUI.predict_image import predict_image
+import numpy as np
+import json
+from Server.predict import predict_image
 
 class VideoCamera(object):
     def __init__(self):
@@ -34,13 +37,16 @@ def base64_to_image(base64_string):
     return Image.open(io.BytesIO(image_bytes))
 
 def predict(image):
-    predicted_class = predict_image(image)
-    # response = requests.post("http://localhost:8000/predict", {image: image})
-    # if response.status_code == 200:
-    #     data = response.json()
-    #     predicted_class = data
-    # else:
-    #     predicted_class = 'internal error'
+    image_cv2 = np.array(image)
+    image_bytes = cv2.imencode('.jpg', image_cv2)[1].tobytes()
+    image_file = BytesIO(image_bytes)
+    response = requests.post("http://localhost:8000/predict", files={"image": image_file})
+    print(response)
+    if response.status_code == 200:
+        data = response.json()
+        predicted_class = data
+    else:
+        predicted_class = 'internal error'
     return f' {predicted_class}.'
 
 def user_feedback(image, correctness, correct_class=None):
