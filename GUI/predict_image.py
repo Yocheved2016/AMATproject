@@ -2,9 +2,11 @@ import io
 import tensorflow as tf
 import numpy as np
 import cv2
-
+import pickle
+from keras.models import Model
+import sklearn
 class_names = ["airplane", "automobile", "bird", "cat", "deer", "dog", "frog", "horse", "ship", "truck", "fish",
-               "flowers", "fruit_and_vegetables", "people", "trees"]
+               "flowers", "fruits and vegetables", "people", "trees"]
 
 model = tf.keras.models.load_model('best_model.h5')
 
@@ -43,13 +45,21 @@ def preprocess_image(image):
     img = np.expand_dims(img, axis=0)
     return img
 
+def anomalys_detection(image):
 
+    anomalys_detector = pickle.load(open('anomalys_detector_v2.sav', 'rb'))
+    _model=Model(inputs=model.input,outputs=model.get_layer('dense_5').output)
+    med_prediction=_model.predict(image)
+    is_anom=anomalys_detector.predict(med_prediction)
+
+    return is_anom ==-1
 
 def predict_image(image_content):
     img = preprocess_image(image_content)
+    is_anomaly=anomalys_detection(img)
+    if is_anomaly==True:
+        return 'ood'
     prediction = model.predict(img)[0]
     predicted_class = np.argmax(prediction)
     print(prediction)
-    confidence = prediction[predicted_class]
-    rounded_confidence = round(confidence, 3)
-    return class_names[predicted_class], rounded_confidence
+    return class_names[predicted_class]

@@ -2,6 +2,7 @@ import base64
 import io
 from PIL import Image
 import cv2
+import requests
 from GUI.predict_image import predict_image
 
 class VideoCamera(object):
@@ -33,5 +34,22 @@ def base64_to_image(base64_string):
     return Image.open(io.BytesIO(image_bytes))
 
 def predict(image):
-    predicted_class, confidence = predict_image(image)
-    return f' {predicted_class}, confidence: {confidence}'
+    predicted_class = predict_image(image)
+    # response = requests.post("http://localhost:8000/predict", {image: image})
+    # if response.status_code == 200:
+    #     data = response.json()
+    #     predicted_class = data
+    # else:
+    #     predicted_class = 'internal error'
+    return f' {predicted_class}.'
+
+def user_feedback(image, correctness, correct_class=None):
+    # response = requests.post("http://localhost:8000/send_feedback", {image: image,
+    #                                                                  correctness: correctness,
+    #                                                                  correct_class: correct_class})
+    # print(response)
+    pass
+
+
+classes = ["airplane", "automobile", "bird", "cat", "deer", "dog", "frog", "horse", "ship", "truck", "fish",
+               "flowers", "fruits and vegetables", "people", "trees"]

@@ -11,7 +11,7 @@ video_modal = html.Div(
         [
             dbc.ModalHeader("Video Feed"),
             dbc.ModalBody(html.Img(id="video-feed", src="/video_feed", width=400, height=300)),
-            dbc.ModalFooter(dbc.Button("Take Photo", id="take-photo-btn", color="primary", className="mr-1"),)
+            dbc.ModalFooter(dbc.Button("Take Photo", id="take-photo-btn", color="primary", className="mr-1"), )
         ],
         id="video-modal",
         size="md",
@@ -19,26 +19,28 @@ video_modal = html.Div(
 )
 
 layout = dbc.Container([
-    dcc.Upload(
-        id='upload-image',
-        children=dbc.Container([
-            'Drag and Drop or ',
-            dbc.Button('Select Files')
-        ]),
-        style={
-            'width': '100%',
-            'height': '60px',
-            'lineHeight': '60px',
-            'borderWidth': '1px',
-            'borderStyle': 'dashed',
-            'borderRadius': '5px',
-            'textAlign': 'center',
-            'margin': '10px'
-        },
-        # Allow multiple files to be uploaded
-        multiple=False
-    ),
-    dbc.Button('Use Camera', id='open-modal-btn'),
+    dbc.Row([
+        dbc.Col(html.H3('Welcome to image classifying app', style={'margin': '1em'}), width=5),
+        dbc.Col(dcc.Upload(
+            id='upload-image',
+            children=dbc.Container([
+                'Drag and Drop or ',
+                dbc.Button('Select Files')
+            ]),
+            style={
+                'width': '100%',
+                'height': '60px',
+                'lineHeight': '60px',
+                'borderWidth': '1px',
+                'borderStyle': 'dashed',
+                'borderRadius': '5px',
+                'textAlign': 'center',
+                'margin': '10px'
+            },
+            # Allow multiple files to be uploaded
+            multiple=False
+        ), width=4),
+        dbc.Col(dbc.Button('Use Camera', id='open-modal-btn', style={'margin': '1.3em'}), width=3)]),
     video_modal,
     dcc.Store(id='cropped-image-store', data=None),  # Store the cropped image data
     dcc.Store(id='original-image-store', data=None),
@@ -48,22 +50,18 @@ layout = dbc.Container([
             width=5
         ),
         dbc.Col(
-            dbc.Container(id="cropped-image-container"),
-            width=5
-        ),
+            dbc.Container([html.H3(id="predicted-class"),
+                           dbc.Container(id="feedback")])
+        )
     ]),
     dbc.Row([
-        dbc.Col(
-            dbc.Button("Crop Image", id="crop-button", style={'margin': '10px'}),
-            width=6
-        ),
         dbc.Col(
             dbc.Button("Predict Image", id="predict-button", style={'margin': '10px'}),
             width=6
         ),
     ]),
-    html.H3(id="predicted-class")
 ], fluid=True)
+
 
 def parse_contents(fig, filename):
     return dbc.Card([
@@ -83,3 +81,10 @@ def parse_contents(fig, filename):
             'padding': '20px'
         },
     )
+
+
+def feedback_content():
+    content = [html.H3('How was the prediction?'),
+               dbc.Button([html.I(className="bi bi-hand-thumbs-up-fill")], id="like"),
+               dbc.Button([html.I(className="bi bi-hand-thumbs-down-fill")], id="dislike")]
+    return content

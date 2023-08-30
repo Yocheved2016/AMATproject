@@ -1,14 +1,14 @@
 from dash import Output, Input, State, no_update, callback_context
-from GUI.utils import VideoCamera, image_to_base64, base64_to_image, predict
+from GUI.utils import VideoCamera, image_to_base64, base64_to_image, predict, user_feedback, classes
 from dash.exceptions import PreventUpdate
 import plotly.graph_objects as go
-from GUI.layout import img_width, img_height, scale_factor, parse_contents
+from GUI.layout import img_width, img_height, scale_factor, parse_contents, feedback_content
 import plotly.io as pio
 from PIL import Image
 import base64
 import io
-import dash_bootstrap_components as dbc
 from dash import dcc, html
+import dash_bootstrap_components as dbc
 
 def register_callbacks(app):
     @app.callback(
@@ -108,70 +108,21 @@ def register_callbacks(app):
         return no_update
 
     @app.callback(
-        Output("cropped-image-container", "children"),
-        Output("cropped-image-store", "data"),  # Store the cropped image data
-        Input("crop-button", "n_clicks"),
+        Output("predicted-class", "children"),
+        Output("feedback", "children", allow_duplicate=True),
+        Output("cropped-image-store", "data"),
+        Input("predict-button", "n_clicks"),
         State("output-image-upload", "children"),
+        prevent_initial_call=True
     )
-    def crop_image(n_clicks, children):
+    def predict_image(n_clicks, children):
         if n_clicks and children:
             original_figure = children[0]['props']['children'][1]['props']['figure']
-
             image_bytes = pio.to_image(original_figure, format="png")
             image = Image.open(io.BytesIO(image_bytes))
-
-            image_width, image_height = image.size
-            left = 0
-            top = 0
-            right = image_width
-            bottom = image_height
-
-            cropped_image = image.crop((left, top, right, bottom))
-
-            fig_cropped = go.Figure()
-            fig_cropped.update_xaxes(
-                visible=False,
-                range=[0, img_width * scale_factor]
-            )
-            fig_cropped.update_yaxes(
-                visible=False,
-                range=[0, img_height * scale_factor],
-                scaleanchor="x"
-            )
-            fig_cropped.add_layout_image(
-                dict(
-                    x=0,
-                    sizex=img_width * scale_factor,
-                    y=img_height * scale_factor,
-                    sizey=img_height * scale_factor,
-                    xref="x",
-                    yref="y",
-                    opacity=1.0,
-                    layer="below",
-                    source=cropped_image)
-            )
-            fig_cropped.update_layout(
-                width=img_width * scale_factor,
-                height=img_height * scale_factor,
-                margin={"l": 0, "r": 0, "t": 0, "b": 0},
-            )
-
-            cropped_image_base64 = image_to_base64(cropped_image)
-
-            return parse_contents(fig_cropped, 'cropped image' ),cropped_image_base64
-
-        return no_update
-
-    @app.callback(
-        Output("predicted-class", "children"),
-        Input("predict-button", "n_clicks"),
-        State("cropped-image-store", "data")
-    )
-    def predict_image(n_clicks, cropped_image_data):
-        if n_clicks and cropped_image_data:
-            cropped_image = base64_to_image(cropped_image_data)
-            predicted_class = predict(cropped_image)
-            return f"Predicted Class: {predicted_class}"
+            predicted_class = predict(image)
+            cropped_image_base64 = image_to_base64(image)
+            return f"Predicted Class: {predicted_class}", feedback_content(), cropped_image_base64
         return no_update
 
     @app.callback(
@@ -191,3 +142,47 @@ def register_callbacks(app):
         elif "take-photo-btn" in prop_id and is_open:
             return not is_open, take_photo_clicks + 1
         raise PreventUpdate
+
+    @app.callback(
+        Output("feedback", "children", allow_duplicate=True),
+        Input("like", "n_clicks"),
+        Input("dislike", "n_clicks"),
+        State("cropped-image-store", "data"),
+        prevent_initial_call=True
+    )
+    def handle_feedback(like_clicks, dislike_clicks, cropped_image_data):
+        ctx = callback_context
+        if not ctx.triggered:
+            return no_update
+
+        prop_id = ctx.triggered[0]["prop_id"]
+
+        if "like" in prop_id and like_clicks:
+            if cropped_image_data:
+                image = base64_to_image(cropped_image_data)
+                user_feedback(image, True)
+                return html.H3('Thanks for your feedback')
+
+        if "dislike" in prop_id and dislike_clicks:
+            return [
+                html.H3('Please choose the correct class'),
+                dcc.Dropdown(
+                    id="feedback_dropdown",
+                    options=[{'label': x, 'value': x} for x in classes],
+                    placeholder="Select a class",
+                )
+            ]
+
+        return no_update
+    @app.callback(
+    Output("feedback", "children", allow_duplicate=True),
+    Input("feedback_dropdown", "value"),
+    State("cropped-image-store", "data"),
+    prevent_initial_call=True
+    )
+    def correct_class(value, image_data):
+        if value and image_data:
+            image = base64_to_image(image_data)
+            user_feedback(image, False, value)
+            return html.H3('Thanks for your feedback')
+        return no_update
