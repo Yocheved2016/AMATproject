@@ -94,3 +94,14 @@ def calculate_average_entropy_and_histogram(image):
     average_entropy = np.mean(entropy)
 
     return average_entropy, avg_histograms
+
+
+def get_avg_histogram(label):
+    loaded_data = np.load('../model/histograms_all_classes.npz')
+    avg_histogram = loaded_data[label]
+    return avg_histogram
+
+def get_distance(image,prediction,img_histogram):
+    avg_histogram=get_avg_histogram(prediction)
+    distance = np.sqrt(np.sum((img_histogram - avg_histogram)**2))
+    return distance
