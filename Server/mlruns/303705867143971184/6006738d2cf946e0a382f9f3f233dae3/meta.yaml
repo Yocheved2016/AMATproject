@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/6006738d2cf946e0a382f9f3f233dae3/artifacts
+end_time: 1693483215939
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: 6006738d2cf946e0a382f9f3f233dae3
+run_name: dazzling-finch-128
+run_uuid: 6006738d2cf946e0a382f9f3f233dae3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693483209079
+status: 3
+tags: []
+user_id: tzipp

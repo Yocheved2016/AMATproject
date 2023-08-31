@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/37abea39324d41c8b148a580068d2344/artifacts
+end_time: 1693483194892
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: 37abea39324d41c8b148a580068d2344
+run_name: stately-moose-839
+run_uuid: 37abea39324d41c8b148a580068d2344
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693483194444
+status: 3
+tags: []
+user_id: tzipp

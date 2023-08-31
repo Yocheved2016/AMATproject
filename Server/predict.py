@@ -66,10 +66,9 @@ def anomalys_detection(image):
 def predict_image(image_content):
     try:
         img = preprocess_image(image_content)
-        cv2.imwrite("saved_image_after_processing.jpg", img)
-        is_anomaly=anomalys_detection(img)
-        if is_anomaly==True:
-            return 'ood'
+        # is_anomaly=anomalys_detection(img)
+        # if is_anomaly==True:
+        #     return 'ood'
         prediction = model.predict(img)[0]
         predicted_class = np.argmax(prediction)
         logging.info(f"Prediction: {prediction}")
@@ -79,17 +78,17 @@ def predict_image(image_content):
 
 
 def calculate_average_entropy_and_histogram(image):
-    
-    
-    avg_histograms = np.zeros((3, 10)) 
+    image_array = np.array(image)
 
-    for channel in range(3): 
-        pixel_values = image[:, :, channel].flatten()
+    avg_histograms = np.zeros((3, 10))
+
+    for channel in range(3):
+        pixel_values = image_array[:, :, channel].flatten()
         histogram, _ = np.histogram(pixel_values, bins=10, range=(0, 256))
-        avg_histograms[channel] = histogram   
+        avg_histograms[channel] = histogram
 
     probabilities = avg_histograms / np.sum(avg_histograms, axis=1, keepdims=True)
-    
+
     entropy = -np.sum(probabilities * np.log2(np.maximum(probabilities, 1e-10)), axis=1)
 
     average_entropy = np.mean(entropy)

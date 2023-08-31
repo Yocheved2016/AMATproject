@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/af85bb942b90440a8ea75b0e78f376f0/artifacts
+end_time: 1693482682590
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: af85bb942b90440a8ea75b0e78f376f0
+run_name: merciful-trout-964
+run_uuid: af85bb942b90440a8ea75b0e78f376f0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693482681896
+status: 3
+tags: []
+user_id: tzipp

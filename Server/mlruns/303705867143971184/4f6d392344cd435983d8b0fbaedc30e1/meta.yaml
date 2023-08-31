@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/4f6d392344cd435983d8b0fbaedc30e1/artifacts
+end_time: 1693482592997
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: 4f6d392344cd435983d8b0fbaedc30e1
+run_name: gregarious-sheep-532
+run_uuid: 4f6d392344cd435983d8b0fbaedc30e1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693482591068
+status: 3
+tags: []
+user_id: tzipp

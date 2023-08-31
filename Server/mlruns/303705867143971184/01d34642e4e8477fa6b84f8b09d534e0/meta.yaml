@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/01d34642e4e8477fa6b84f8b09d534e0/artifacts
+end_time: 1693481763671
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: 01d34642e4e8477fa6b84f8b09d534e0
+run_name: gifted-tern-393
+run_uuid: 01d34642e4e8477fa6b84f8b09d534e0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693481762709
+status: 3
+tags: []
+user_id: tzipp

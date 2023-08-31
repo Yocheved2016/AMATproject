@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/a1f8089b1fc8456a8229305a3d614e44/artifacts
+end_time: 1693480650489
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: a1f8089b1fc8456a8229305a3d614e44
+run_name: whimsical-skink-466
+run_uuid: a1f8089b1fc8456a8229305a3d614e44
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693480650198
+status: 4
+tags: []
+user_id: tzipp

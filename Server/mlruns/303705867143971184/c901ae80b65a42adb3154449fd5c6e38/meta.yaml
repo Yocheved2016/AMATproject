@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/c901ae80b65a42adb3154449fd5c6e38/artifacts
+end_time: 1693482693541
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: c901ae80b65a42adb3154449fd5c6e38
+run_name: honorable-fly-899
+run_uuid: c901ae80b65a42adb3154449fd5c6e38
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693482693205
+status: 3
+tags: []
+user_id: tzipp

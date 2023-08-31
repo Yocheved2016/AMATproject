@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/08ac5182cf2a407f83fab90e2dead30b/artifacts
+end_time: 1693483561215
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: 08ac5182cf2a407f83fab90e2dead30b
+run_name: gaudy-wolf-149
+run_uuid: 08ac5182cf2a407f83fab90e2dead30b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693483559667
+status: 3
+tags: []
+user_id: tzipp
