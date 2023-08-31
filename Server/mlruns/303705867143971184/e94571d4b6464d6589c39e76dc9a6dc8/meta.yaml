@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/e94571d4b6464d6589c39e76dc9a6dc8/artifacts
+end_time: 1693490941306
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: e94571d4b6464d6589c39e76dc9a6dc8
+run_name: merciful-foal-695
+run_uuid: e94571d4b6464d6589c39e76dc9a6dc8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693490939923
+status: 4
+tags: []
+user_id: tzipp

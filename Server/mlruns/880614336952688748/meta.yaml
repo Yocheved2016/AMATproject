@@ -1,0 +1,6 @@
+artifact_location: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748
+creation_time: 1693496287832
+experiment_id: '880614336952688748'
+last_update_time: 1693496287832
+lifecycle_stage: active
+name: cifar_model_monitoring

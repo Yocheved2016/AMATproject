@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/cc557706ec634891b40e2022df40a76a/artifacts
+end_time: 1693494586323
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: cc557706ec634891b40e2022df40a76a
+run_name: zealous-ape-300
+run_uuid: cc557706ec634891b40e2022df40a76a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693494585221
+status: 3
+tags: []
+user_id: tzipp

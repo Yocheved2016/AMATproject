@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/6ca647e441d9448a95f528dbbc99942c/artifacts
+end_time: 1693482609599
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: 6ca647e441d9448a95f528dbbc99942c
+run_name: respected-goat-355
+run_uuid: 6ca647e441d9448a95f528dbbc99942c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693482608077
+status: 3
+tags: []
+user_id: tzipp

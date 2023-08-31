@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/77951087ea6046ed828b1d77d613867e/artifacts
+end_time: 1693496984534
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 77951087ea6046ed828b1d77d613867e
+run_name: dashing-deer-966
+run_uuid: 77951087ea6046ed828b1d77d613867e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693496984302
+status: 3
+tags: []
+user_id: tzipp

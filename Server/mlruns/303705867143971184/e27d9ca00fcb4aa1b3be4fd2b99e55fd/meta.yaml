@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/e27d9ca00fcb4aa1b3be4fd2b99e55fd/artifacts
+end_time: 1693491241405
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: e27d9ca00fcb4aa1b3be4fd2b99e55fd
+run_name: colorful-newt-827
+run_uuid: e27d9ca00fcb4aa1b3be4fd2b99e55fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693491240145
+status: 4
+tags: []
+user_id: tzipp

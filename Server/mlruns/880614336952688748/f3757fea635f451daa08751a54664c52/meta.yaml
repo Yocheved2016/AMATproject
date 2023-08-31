@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/f3757fea635f451daa08751a54664c52/artifacts
+end_time: 1693496947103
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: f3757fea635f451daa08751a54664c52
+run_name: lyrical-koi-803
+run_uuid: f3757fea635f451daa08751a54664c52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693496946768
+status: 3
+tags: []
+user_id: tzipp

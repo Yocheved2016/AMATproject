@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/7b6e13a4bb0f4b9cb7b7c29c0640e16a/artifacts
+end_time: 1693497164119
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 7b6e13a4bb0f4b9cb7b7c29c0640e16a
+run_name: fearless-horse-665
+run_uuid: 7b6e13a4bb0f4b9cb7b7c29c0640e16a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693497163926
+status: 3
+tags: []
+user_id: tzipp

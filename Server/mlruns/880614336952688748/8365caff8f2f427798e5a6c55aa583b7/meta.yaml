@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/8365caff8f2f427798e5a6c55aa583b7/artifacts
+end_time: 1693497209800
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 8365caff8f2f427798e5a6c55aa583b7
+run_name: orderly-hare-541
+run_uuid: 8365caff8f2f427798e5a6c55aa583b7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693497209505
+status: 3
+tags: []
+user_id: tzipp

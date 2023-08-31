@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/c8b1b79877df4a53baeedce7ca00685b/artifacts
+deleted_time: 1693496820712
+end_time: 1693496670719
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: deleted
+run_id: c8b1b79877df4a53baeedce7ca00685b
+run_name: monumental-hog-267
+run_uuid: c8b1b79877df4a53baeedce7ca00685b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693496669126
+status: 3
+tags: []
+user_id: tzipp

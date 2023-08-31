@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/00c989a838b243d4839b7594ebe3fb90/artifacts
+end_time: 1693493935109
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: 00c989a838b243d4839b7594ebe3fb90
+run_name: indecisive-mule-53
+run_uuid: 00c989a838b243d4839b7594ebe3fb90
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693493934127
+status: 3
+tags: []
+user_id: tzipp

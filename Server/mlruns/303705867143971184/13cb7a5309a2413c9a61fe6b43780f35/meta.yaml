@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/13cb7a5309a2413c9a61fe6b43780f35/artifacts
+end_time: 1693482771477
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: 13cb7a5309a2413c9a61fe6b43780f35
+run_name: abrasive-wolf-548
+run_uuid: 13cb7a5309a2413c9a61fe6b43780f35
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693482770847
+status: 3
+tags: []
+user_id: tzipp

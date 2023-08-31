@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/816342e4686341c3b282e11d57b6939d/artifacts
+end_time: 1693494560080
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: 816342e4686341c3b282e11d57b6939d
+run_name: carefree-carp-320
+run_uuid: 816342e4686341c3b282e11d57b6939d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693494559348
+status: 3
+tags: []
+user_id: tzipp

@@ -1,33 +1,42 @@
 from fastapi import FastAPI, HTTPException
 import uvicorn
-from predict import predict_image,calculate_average_entropy_and_histogram,get_distance
+from predict import predict_image,calculate_average_entropy_and_histogram,get_distance, class_names
 from fastapi import FastAPI, File, UploadFile
 from PIL import Image
 import io
+import mlflow
+
 app = FastAPI()
 
-from typing import List
+
 @app.post("/predict")
 async def predict(image: UploadFile):
     try:
-        # Read the uploaded image data
-        image_data = await image.read()
-        # Convert the image data to a PIL Image
-        pil_image = Image.open(io.BytesIO(image_data))
-        
-        # Save the uploaded image to a file (e.g., "uploaded_image.jpg")
-        image_path = "uploaded_image.jpg"
-        pil_image.save(image_path)
-        prediction = predict_image(pil_image)
-        if(prediction):
-            average_entropy, img_histogram=calculate_average_entropy_and_histogram(pil_image)
-            distance=get_distance(pil_image,prediction,img_histogram)
-            return {"prediction": prediction}
-        else:
-            return HTTPException(status_code=500, detail=str('error'))
+        mlflow.set_experiment("cifar_model_monitoring")
+        with mlflow.start_run():
+            image_data = await image.read()
+            pil_image = Image.open(io.BytesIO(image_data))
+            image_path = "uploaded_image.jpg"
+            pil_image.save(image_path)
+            prediction, confidence = predict_image(pil_image)
+            print(f'prediction: {prediction}, confidence: {confidence}')
+            if prediction is not None:
+                try:
+                    entropy, histograms = calculate_average_entropy_and_histogram(pil_image)
+                    hist_dist = get_distance(pil_image, prediction, histograms)
+                    metrics = {"Entropy": entropy,
+                               "Histogram_distance": hist_dist,
+                               "Confidence": confidence}
+                    mlflow.log_metrics(metrics)
+                    mlflow.set_tag("class", class_names[prediction])
+                    return class_names[prediction]
+                except Exception as e:
+                    print(e)
+            else:
+                return HTTPException(status_code=500, detail=str('error'))
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+
 if __name__ == "__main__":
     uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
-

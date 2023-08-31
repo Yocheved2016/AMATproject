@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/605d5f1d3aa246d7a23db6203fb0c299/artifacts
+end_time: 1693483056037
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: 605d5f1d3aa246d7a23db6203fb0c299
+run_name: omniscient-elk-519
+run_uuid: 605d5f1d3aa246d7a23db6203fb0c299
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693483054945
+status: 3
+tags: []
+user_id: tzipp

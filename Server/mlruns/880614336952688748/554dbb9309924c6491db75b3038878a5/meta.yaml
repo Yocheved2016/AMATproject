@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/554dbb9309924c6491db75b3038878a5/artifacts
+end_time: 1693497244344
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 554dbb9309924c6491db75b3038878a5
+run_name: grandiose-grub-417
+run_uuid: 554dbb9309924c6491db75b3038878a5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693497244131
+status: 3
+tags: []
+user_id: tzipp

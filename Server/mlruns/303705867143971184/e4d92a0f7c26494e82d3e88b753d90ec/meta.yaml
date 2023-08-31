@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/e4d92a0f7c26494e82d3e88b753d90ec/artifacts
+end_time: 1693492855186
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: e4d92a0f7c26494e82d3e88b753d90ec
+run_name: rogue-kit-839
+run_uuid: e4d92a0f7c26494e82d3e88b753d90ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693492713605
+status: 3
+tags: []
+user_id: tzipp

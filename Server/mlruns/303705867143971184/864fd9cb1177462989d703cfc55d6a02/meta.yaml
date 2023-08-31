@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/864fd9cb1177462989d703cfc55d6a02/artifacts
+end_time: 1693483081334
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: 864fd9cb1177462989d703cfc55d6a02
+run_name: burly-stork-776
+run_uuid: 864fd9cb1177462989d703cfc55d6a02
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693483079709
+status: 3
+tags: []
+user_id: tzipp

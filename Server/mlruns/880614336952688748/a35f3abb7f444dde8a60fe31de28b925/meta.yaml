@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/a35f3abb7f444dde8a60fe31de28b925/artifacts
+end_time: 1693496700079
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: a35f3abb7f444dde8a60fe31de28b925
+run_name: marvelous-ape-136
+run_uuid: a35f3abb7f444dde8a60fe31de28b925
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693496699569
+status: 3
+tags: []
+user_id: tzipp

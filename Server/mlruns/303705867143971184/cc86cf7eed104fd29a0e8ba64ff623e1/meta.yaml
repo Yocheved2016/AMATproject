@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/cc86cf7eed104fd29a0e8ba64ff623e1/artifacts
+end_time: 1693483227635
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: cc86cf7eed104fd29a0e8ba64ff623e1
+run_name: mysterious-zebra-205
+run_uuid: cc86cf7eed104fd29a0e8ba64ff623e1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693483226891
+status: 3
+tags: []
+user_id: tzipp

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/dd3265c056a94a6490ecd5503a7760d0/artifacts
+end_time: 1693482142004
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: dd3265c056a94a6490ecd5503a7760d0
+run_name: worried-squirrel-574
+run_uuid: dd3265c056a94a6490ecd5503a7760d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693482141858
+status: 4
+tags: []
+user_id: tzipp
