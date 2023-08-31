@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/f940ac97cfaf473da4ccf617312d6f45/artifacts
+deleted_time: 1693496820665
+end_time: 1693496314638
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: deleted
+run_id: f940ac97cfaf473da4ccf617312d6f45
+run_name: casual-shark-605
+run_uuid: f940ac97cfaf473da4ccf617312d6f45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693496314227
+status: 3
+tags: []
+user_id: tzipp

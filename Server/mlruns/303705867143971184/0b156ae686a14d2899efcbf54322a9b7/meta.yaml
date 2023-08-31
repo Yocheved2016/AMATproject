@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/0b156ae686a14d2899efcbf54322a9b7/artifacts
+end_time: 1693491427630
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: 0b156ae686a14d2899efcbf54322a9b7
+run_name: charming-whale-844
+run_uuid: 0b156ae686a14d2899efcbf54322a9b7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693491426697
+status: 3
+tags: []
+user_id: tzipp

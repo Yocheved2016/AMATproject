@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/42d24dcbf8524bfd828dd2c41b436be0/artifacts
+end_time: 1693492358338
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: 42d24dcbf8524bfd828dd2c41b436be0
+run_name: resilient-bass-625
+run_uuid: 42d24dcbf8524bfd828dd2c41b436be0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693492355206
+status: 3
+tags: []
+user_id: tzipp

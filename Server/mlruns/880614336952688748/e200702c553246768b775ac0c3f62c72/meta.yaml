@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/e200702c553246768b775ac0c3f62c72/artifacts
+end_time: 1693497018107
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: e200702c553246768b775ac0c3f62c72
+run_name: treasured-cub-330
+run_uuid: e200702c553246768b775ac0c3f62c72
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693497017854
+status: 3
+tags: []
+user_id: tzipp

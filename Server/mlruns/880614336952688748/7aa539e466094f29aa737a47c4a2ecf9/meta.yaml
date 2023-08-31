@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/7aa539e466094f29aa737a47c4a2ecf9/artifacts
+end_time: 1693497148538
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 7aa539e466094f29aa737a47c4a2ecf9
+run_name: amusing-ray-903
+run_uuid: 7aa539e466094f29aa737a47c4a2ecf9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693497148250
+status: 3
+tags: []
+user_id: tzipp

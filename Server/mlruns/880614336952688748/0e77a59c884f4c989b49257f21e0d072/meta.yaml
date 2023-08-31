@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/0e77a59c884f4c989b49257f21e0d072/artifacts
+end_time: 1693497172590
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 0e77a59c884f4c989b49257f21e0d072
+run_name: unique-shrimp-642
+run_uuid: 0e77a59c884f4c989b49257f21e0d072
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693497172171
+status: 3
+tags: []
+user_id: tzipp

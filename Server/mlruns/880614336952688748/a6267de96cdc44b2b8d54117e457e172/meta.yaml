@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/a6267de96cdc44b2b8d54117e457e172/artifacts
+end_time: 1693497218119
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: a6267de96cdc44b2b8d54117e457e172
+run_name: sassy-mink-449
+run_uuid: a6267de96cdc44b2b8d54117e457e172
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693497217805
+status: 3
+tags: []
+user_id: tzipp

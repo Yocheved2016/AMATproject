@@ -71,8 +71,9 @@ def predict_image(image_content):
         #     return 'ood'
         prediction = model.predict(img)[0]
         predicted_class = np.argmax(prediction)
+        confidence = prediction[predicted_class]
         logging.info(f"Prediction: {prediction}")
-        return class_names[predicted_class]
+        return predicted_class, confidence
     except Exception as e:
         logging.error(f"Error in predict_image: {str(e)}")
 
@@ -98,7 +99,7 @@ def calculate_average_entropy_and_histogram(image):
 
 def get_avg_histogram(label):
     loaded_data = np.load('../model/histograms_all_classes.npz')
-    avg_histogram = loaded_data[label]
+    avg_histogram = loaded_data[str(label)]
     return avg_histogram
 
 def get_distance(image,prediction,img_histogram):

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/1ecea01811054955816c6b2b8e455772/artifacts
+end_time: 1693494597060
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: 1ecea01811054955816c6b2b8e455772
+run_name: monumental-frog-127
+run_uuid: 1ecea01811054955816c6b2b8e455772
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693494596678
+status: 3
+tags: []
+user_id: tzipp

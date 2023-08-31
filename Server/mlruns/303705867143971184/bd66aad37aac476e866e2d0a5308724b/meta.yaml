@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/bd66aad37aac476e866e2d0a5308724b/artifacts
+end_time: 1693494572646
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: bd66aad37aac476e866e2d0a5308724b
+run_name: placid-foal-909
+run_uuid: bd66aad37aac476e866e2d0a5308724b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693494572274
+status: 3
+tags: []
+user_id: tzipp

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/dfa2712f25a54f18b69bad0bc1a2f7b0/artifacts
+end_time: 1693497028089
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: dfa2712f25a54f18b69bad0bc1a2f7b0
+run_name: upset-yak-84
+run_uuid: dfa2712f25a54f18b69bad0bc1a2f7b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693497027610
+status: 3
+tags: []
+user_id: tzipp

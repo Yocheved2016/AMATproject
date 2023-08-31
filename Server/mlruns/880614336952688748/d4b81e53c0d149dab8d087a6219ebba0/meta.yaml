@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/d4b81e53c0d149dab8d087a6219ebba0/artifacts
+end_time: 1693497047546
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: d4b81e53c0d149dab8d087a6219ebba0
+run_name: rare-ape-696
+run_uuid: d4b81e53c0d149dab8d087a6219ebba0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693497047150
+status: 3
+tags: []
+user_id: tzipp

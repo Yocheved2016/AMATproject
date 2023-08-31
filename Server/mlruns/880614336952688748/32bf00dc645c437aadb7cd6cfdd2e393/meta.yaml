@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/32bf00dc645c437aadb7cd6cfdd2e393/artifacts
+end_time: 1693497009062
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 32bf00dc645c437aadb7cd6cfdd2e393
+run_name: polite-rook-999
+run_uuid: 32bf00dc645c437aadb7cd6cfdd2e393
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693497008522
+status: 3
+tags: []
+user_id: tzipp

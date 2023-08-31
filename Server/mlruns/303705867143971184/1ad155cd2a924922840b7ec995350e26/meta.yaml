@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/1ad155cd2a924922840b7ec995350e26/artifacts
+end_time: 1693492341772
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: 1ad155cd2a924922840b7ec995350e26
+run_name: clean-fawn-821
+run_uuid: 1ad155cd2a924922840b7ec995350e26
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693492315698
+status: 3
+tags: []
+user_id: tzipp

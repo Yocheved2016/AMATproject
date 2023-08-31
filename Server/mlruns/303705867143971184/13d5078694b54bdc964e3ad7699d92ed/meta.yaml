@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/303705867143971184/13d5078694b54bdc964e3ad7699d92ed/artifacts
+end_time: 1693490743538
+entry_point_name: ''
+experiment_id: '303705867143971184'
+lifecycle_stage: active
+run_id: 13d5078694b54bdc964e3ad7699d92ed
+run_name: angry-crane-774
+run_uuid: 13d5078694b54bdc964e3ad7699d92ed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693490737234
+status: 4
+tags: []
+user_id: tzipp

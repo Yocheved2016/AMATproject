@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/7c7752b79259468d9a5504f388690036/artifacts
+deleted_time: 1693496820656
+end_time: 1693496291455
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: deleted
+run_id: 7c7752b79259468d9a5504f388690036
+run_name: abundant-moose-610
+run_uuid: 7c7752b79259468d9a5504f388690036
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693496289965
+status: 3
+tags: []
+user_id: tzipp

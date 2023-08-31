@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/7094355c5cb144769f2d1e74fc31e9c1/artifacts
+end_time: 1693497064352
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 7094355c5cb144769f2d1e74fc31e9c1
+run_name: nosy-worm-115
+run_uuid: 7094355c5cb144769f2d1e74fc31e9c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693497063957
+status: 3
+tags: []
+user_id: tzipp

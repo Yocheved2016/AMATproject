@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/0a63b81545194ce392314ade6688a9f4/artifacts
+end_time: 1693496990765
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 0a63b81545194ce392314ade6688a9f4
+run_name: exultant-ox-269
+run_uuid: 0a63b81545194ce392314ade6688a9f4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693496990385
+status: 3
+tags: []
+user_id: tzipp
