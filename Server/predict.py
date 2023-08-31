@@ -76,3 +76,22 @@ def predict_image(image_content):
         return class_names[predicted_class]
     except Exception as e:
         logging.error(f"Error in predict_image: {str(e)}")
+
+
+def calculate_average_entropy_and_histogram(image):
+    
+    
+    avg_histograms = np.zeros((3, 10)) 
+
+    for channel in range(3): 
+        pixel_values = image[:, :, channel].flatten()
+        histogram, _ = np.histogram(pixel_values, bins=10, range=(0, 256))
+        avg_histograms[channel] = histogram   
+
+    probabilities = avg_histograms / np.sum(avg_histograms, axis=1, keepdims=True)
+    
+    entropy = -np.sum(probabilities * np.log2(np.maximum(probabilities, 1e-10)), axis=1)
+
+    average_entropy = np.mean(entropy)
+
+    return average_entropy, avg_histograms
