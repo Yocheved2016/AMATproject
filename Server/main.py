@@ -37,6 +37,17 @@ async def predict(image: UploadFile):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+@app.post("/incorrectPrediction")
+async def incorrect_prediction(image: UploadFile,correct_class):
+    image_data = await image.read()
+    # Convert the image data to a PIL Image
+    pil_image = Image.open(io.BytesIO(image_data))
+
+    # Generate a random string 
+    random_uuid = uuid.uuid4()
+    # Save the uploaded image to a folder
+    image_path = f'Candidates/{correct_class}/{random_uuid}.jpg'
+    pil_image.save(image_path)
 
 if __name__ == "__main__":
     uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
