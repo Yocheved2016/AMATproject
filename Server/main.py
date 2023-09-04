@@ -44,9 +44,15 @@ async def incorrect_prediction(image: UploadFile,correct_class):
     pil_image = Image.open(io.BytesIO(image_data))
 
     # Generate a random string 
-    random_uuid = uuid.uuid4()
+    random_img_name = uuid.uuid4()
+    
     # Save the uploaded image to a folder
-    image_path = f'Candidates/{correct_class}/{random_uuid}.jpg'
+
+    # checking if the directory exist or not.  
+    if not os.path.exists( f'Candidates/{correct_class}'):
+        # then create it.
+        os.makedirs("path/to/demo_folder")
+    image_path = f'Candidates/{correct_class}/{random_img_name}.jpg'
     pil_image.save(image_path)
 
 if __name__ == "__main__":
