@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/7fc13f391d764336a1085f5255d419c5/artifacts
+end_time: 1693734139320
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 7fc13f391d764336a1085f5255d419c5
+run_name: gaudy-gull-642
+run_uuid: 7fc13f391d764336a1085f5255d419c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693734139088
+status: 3
+tags: []
+user_id: tzipp

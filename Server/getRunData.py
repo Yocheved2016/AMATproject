@@ -7,7 +7,7 @@ CLASS = ["airplane", "automobile", "bird", "cat", "deer", "dog", "frog", "horse"
          "fish", "flowers", "fruits and vegetables", "people", "trees"]
 class_name_to_number = {class_name: idx for idx, class_name in enumerate(CLASS)}
 def fetch_run_data():
-    EXPERIMENT_NAME = "cifar_model_monitoring"
+    EXPERIMENT_NAME = "model_monitoring_cifar"
     # mlflow.set_tracking_uri("file:///./Server")
     client = MlflowClient()
 
@@ -35,12 +35,13 @@ def create_dict():
     run_data = fetch_run_data()
     result_dict = {}
     avg_entropy_per_class = extract_avg_entropy()
+    print(avg_entropy_per_class)
     # Loop through each unique class in your DataFrame
     for class_name in run_data['Class'].unique():
         class_data = run_data[run_data['Class'] == class_name]  # Filter data for the current class
         histogram_measurements = list(class_data['Histogram_distance'])
-        # initial_entropy = avg_entropy_per_class[str(class_name_to_number[class_name])]
-        initial_entropy = 0
+        initial_entropy = avg_entropy_per_class[class_name_to_number[class_name]]
+        # initial_entropy = 0
         entropy_measurements = list(class_data['Entropy'])
         confidence_measurements = list(class_data['Confidence'])
 
@@ -60,6 +61,6 @@ def create_dict():
 
 def extract_avg_entropy():
     loaded_data = np.load('../model/entropy_all_classes.npz')
-    return loaded_data
+    return loaded_data['entropys']
 
 print(create_dict())

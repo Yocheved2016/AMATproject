@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/a294c2002a4842c481471d63e757f012/artifacts
+end_time: 1693734241599
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: a294c2002a4842c481471d63e757f012
+run_name: inquisitive-crow-367
+run_uuid: a294c2002a4842c481471d63e757f012
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693734241345
+status: 3
+tags: []
+user_id: tzipp

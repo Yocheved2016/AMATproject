@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/99b7267fd9214c8a99754f54a9fe01db/artifacts
+end_time: 1693817750001
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 99b7267fd9214c8a99754f54a9fe01db
+run_name: rumbling-turtle-416
+run_uuid: 99b7267fd9214c8a99754f54a9fe01db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693817749746
+status: 3
+tags: []
+user_id: tzipp

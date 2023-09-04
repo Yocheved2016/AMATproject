@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/d397b23b562641b19369ad381c19fe05/artifacts
+end_time: 1693736990428
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: d397b23b562641b19369ad381c19fe05
+run_name: calm-boar-307
+run_uuid: d397b23b562641b19369ad381c19fe05
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693736990251
+status: 3
+tags: []
+user_id: tzipp

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/368343ecccac482d8227aa7bc50d179e/artifacts
+end_time: 1693733208205
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 368343ecccac482d8227aa7bc50d179e
+run_name: omniscient-zebra-198
+run_uuid: 368343ecccac482d8227aa7bc50d179e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693733208055
+status: 3
+tags: []
+user_id: tzipp

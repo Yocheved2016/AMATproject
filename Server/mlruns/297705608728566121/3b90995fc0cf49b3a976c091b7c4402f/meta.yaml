@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/3b90995fc0cf49b3a976c091b7c4402f/artifacts
+end_time: 1693818188244
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 3b90995fc0cf49b3a976c091b7c4402f
+run_name: receptive-asp-49
+run_uuid: 3b90995fc0cf49b3a976c091b7c4402f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693818187919
+status: 3
+tags: []
+user_id: tzipp

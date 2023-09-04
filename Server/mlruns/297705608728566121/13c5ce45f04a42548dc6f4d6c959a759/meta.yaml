@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/13c5ce45f04a42548dc6f4d6c959a759/artifacts
+end_time: 1693736696361
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 13c5ce45f04a42548dc6f4d6c959a759
+run_name: nervous-eel-102
+run_uuid: 13c5ce45f04a42548dc6f4d6c959a759
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693736696197
+status: 3
+tags: []
+user_id: tzipp

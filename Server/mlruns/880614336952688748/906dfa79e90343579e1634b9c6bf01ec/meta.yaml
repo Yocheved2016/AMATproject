@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/906dfa79e90343579e1634b9c6bf01ec/artifacts
+end_time: 1693733450515
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 906dfa79e90343579e1634b9c6bf01ec
+run_name: sincere-crane-594
+run_uuid: 906dfa79e90343579e1634b9c6bf01ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693733450305
+status: 3
+tags: []
+user_id: tzipp

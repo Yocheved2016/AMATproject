@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/77c91db377ba4394a61a8824ba019adb/artifacts
+end_time: 1693736611394
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 77c91db377ba4394a61a8824ba019adb
+run_name: omniscient-crane-70
+run_uuid: 77c91db377ba4394a61a8824ba019adb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693736611056
+status: 3
+tags: []
+user_id: tzipp

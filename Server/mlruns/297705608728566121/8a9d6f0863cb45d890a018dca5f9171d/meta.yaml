@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/8a9d6f0863cb45d890a018dca5f9171d/artifacts
+end_time: 1693736617270
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 8a9d6f0863cb45d890a018dca5f9171d
+run_name: bright-squid-608
+run_uuid: 8a9d6f0863cb45d890a018dca5f9171d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693736617031
+status: 3
+tags: []
+user_id: tzipp

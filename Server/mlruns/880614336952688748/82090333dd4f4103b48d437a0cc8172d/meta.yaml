@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/82090333dd4f4103b48d437a0cc8172d/artifacts
+end_time: 1693733272333
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 82090333dd4f4103b48d437a0cc8172d
+run_name: secretive-frog-32
+run_uuid: 82090333dd4f4103b48d437a0cc8172d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693733272080
+status: 3
+tags: []
+user_id: tzipp

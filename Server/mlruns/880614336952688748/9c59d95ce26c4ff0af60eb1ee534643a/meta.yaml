@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/9c59d95ce26c4ff0af60eb1ee534643a/artifacts
+end_time: 1693733895434
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 9c59d95ce26c4ff0af60eb1ee534643a
+run_name: casual-fish-396
+run_uuid: 9c59d95ce26c4ff0af60eb1ee534643a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693733894990
+status: 3
+tags: []
+user_id: tzipp

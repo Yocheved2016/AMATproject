@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/d9bab1f9ec904ceca7ec8dda223f464e/artifacts
+end_time: 1693818056112
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: d9bab1f9ec904ceca7ec8dda223f464e
+run_name: entertaining-elk-374
+run_uuid: d9bab1f9ec904ceca7ec8dda223f464e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693818055898
+status: 3
+tags: []
+user_id: tzipp

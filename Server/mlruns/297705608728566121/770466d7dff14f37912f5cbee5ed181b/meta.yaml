@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/770466d7dff14f37912f5cbee5ed181b/artifacts
+end_time: 1693818179890
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 770466d7dff14f37912f5cbee5ed181b
+run_name: carefree-shark-763
+run_uuid: 770466d7dff14f37912f5cbee5ed181b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693818179671
+status: 3
+tags: []
+user_id: tzipp

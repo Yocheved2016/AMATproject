@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/8b67459e483b42f38106a2587d859b54/artifacts
+end_time: 1693736778355
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 8b67459e483b42f38106a2587d859b54
+run_name: nosy-moose-196
+run_uuid: 8b67459e483b42f38106a2587d859b54
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693736778167
+status: 3
+tags: []
+user_id: tzipp

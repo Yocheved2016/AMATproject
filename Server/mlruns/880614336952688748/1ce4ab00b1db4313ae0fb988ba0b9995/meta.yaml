@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/1ce4ab00b1db4313ae0fb988ba0b9995/artifacts
+end_time: 1693736399581
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 1ce4ab00b1db4313ae0fb988ba0b9995
+run_name: skillful-colt-451
+run_uuid: 1ce4ab00b1db4313ae0fb988ba0b9995
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693736398867
+status: 3
+tags: []
+user_id: tzipp

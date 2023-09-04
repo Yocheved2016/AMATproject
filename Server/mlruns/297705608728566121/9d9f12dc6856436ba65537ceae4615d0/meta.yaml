@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/9d9f12dc6856436ba65537ceae4615d0/artifacts
+end_time: 1693817987058
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 9d9f12dc6856436ba65537ceae4615d0
+run_name: agreeable-ant-645
+run_uuid: 9d9f12dc6856436ba65537ceae4615d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693817986795
+status: 3
+tags: []
+user_id: tzipp

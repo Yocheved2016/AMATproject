@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/0349d7a4fd6f4718b84cc8efc26c4434/artifacts
+end_time: 1693736521375
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 0349d7a4fd6f4718b84cc8efc26c4434
+run_name: redolent-hawk-63
+run_uuid: 0349d7a4fd6f4718b84cc8efc26c4434
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693736520385
+status: 3
+tags: []
+user_id: tzipp

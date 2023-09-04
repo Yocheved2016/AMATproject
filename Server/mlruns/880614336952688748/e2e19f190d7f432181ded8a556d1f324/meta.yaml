@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/e2e19f190d7f432181ded8a556d1f324/artifacts
+end_time: 1693734208853
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: e2e19f190d7f432181ded8a556d1f324
+run_name: smiling-gull-307
+run_uuid: e2e19f190d7f432181ded8a556d1f324
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693734208670
+status: 3
+tags: []
+user_id: tzipp

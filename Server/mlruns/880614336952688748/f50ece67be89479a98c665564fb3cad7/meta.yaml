@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/f50ece67be89479a98c665564fb3cad7/artifacts
+end_time: 1693734064014
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: f50ece67be89479a98c665564fb3cad7
+run_name: useful-swan-172
+run_uuid: f50ece67be89479a98c665564fb3cad7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693734063837
+status: 3
+tags: []
+user_id: tzipp

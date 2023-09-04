@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/1af508dc6a314027a9b89541a7f742fb/artifacts
+end_time: 1693817757304
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 1af508dc6a314027a9b89541a7f742fb
+run_name: gifted-ape-201
+run_uuid: 1af508dc6a314027a9b89541a7f742fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693817757102
+status: 3
+tags: []
+user_id: tzipp

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/88b142cc9aba4da4a6e126783aeccb71/artifacts
+end_time: 1693817730808
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 88b142cc9aba4da4a6e126783aeccb71
+run_name: nimble-shrike-322
+run_uuid: 88b142cc9aba4da4a6e126783aeccb71
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693817730541
+status: 3
+tags: []
+user_id: tzipp

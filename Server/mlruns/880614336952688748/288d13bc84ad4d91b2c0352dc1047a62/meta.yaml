@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/288d13bc84ad4d91b2c0352dc1047a62/artifacts
+end_time: 1693733199603
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 288d13bc84ad4d91b2c0352dc1047a62
+run_name: victorious-goose-399
+run_uuid: 288d13bc84ad4d91b2c0352dc1047a62
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693733199368
+status: 3
+tags: []
+user_id: tzipp

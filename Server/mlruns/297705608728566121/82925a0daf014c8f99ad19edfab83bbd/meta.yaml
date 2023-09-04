@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/82925a0daf014c8f99ad19edfab83bbd/artifacts
+end_time: 1693817774062
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 82925a0daf014c8f99ad19edfab83bbd
+run_name: stylish-wasp-641
+run_uuid: 82925a0daf014c8f99ad19edfab83bbd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693817773853
+status: 3
+tags: []
+user_id: tzipp

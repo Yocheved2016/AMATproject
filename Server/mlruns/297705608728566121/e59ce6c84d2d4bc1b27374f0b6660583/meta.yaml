@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/e59ce6c84d2d4bc1b27374f0b6660583/artifacts
+end_time: 1693736779034
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: e59ce6c84d2d4bc1b27374f0b6660583
+run_name: delightful-roo-904
+run_uuid: e59ce6c84d2d4bc1b27374f0b6660583
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693736778882
+status: 3
+tags: []
+user_id: tzipp

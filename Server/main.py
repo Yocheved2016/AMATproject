@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 import uvicorn
-from predict import predict_image,calculate_average_entropy_and_histogram,get_distance, class_names
+from predict import predict_image,calculate_average_entropy_and_histogram,get_distance,class_names, preprocess_image
 from fastapi import FastAPI, File, UploadFile
 from PIL import Image
 import io
@@ -12,7 +12,7 @@ app = FastAPI()
 @app.post("/predict")
 async def predict(image: UploadFile):
     try:
-        mlflow.set_experiment("cifar_model_monitoring")
+        mlflow.set_experiment("model_monitoring_cifar")
         with mlflow.start_run():
             image_data = await image.read()
             pil_image = Image.open(io.BytesIO(image_data))
@@ -22,8 +22,9 @@ async def predict(image: UploadFile):
             print(f'prediction: {prediction}, confidence: {confidence}')
             if prediction is not None:
                 try:
-                    entropy, histograms = calculate_average_entropy_and_histogram(pil_image)
-                    hist_dist = get_distance(pil_image, prediction, histograms)
+                    img = preprocess_image(pil_image)
+                    entropy, histograms = calculate_average_entropy_and_histogram(img)
+                    hist_dist = get_distance( prediction, histograms)
                     metrics = {"Entropy": entropy,
                                "Histogram_distance": hist_dist,
                                "Confidence": confidence}

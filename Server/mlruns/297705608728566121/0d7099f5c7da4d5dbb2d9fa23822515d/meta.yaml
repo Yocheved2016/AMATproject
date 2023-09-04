@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/0d7099f5c7da4d5dbb2d9fa23822515d/artifacts
+end_time: 1693818047470
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 0d7099f5c7da4d5dbb2d9fa23822515d
+run_name: smiling-panda-485
+run_uuid: 0d7099f5c7da4d5dbb2d9fa23822515d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693818047278
+status: 3
+tags: []
+user_id: tzipp

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/0ecc118e57004e71864f6c1fe2cb366d/artifacts
+end_time: 1693736936298
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 0ecc118e57004e71864f6c1fe2cb366d
+run_name: magnificent-elk-838
+run_uuid: 0ecc118e57004e71864f6c1fe2cb366d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693736936045
+status: 3
+tags: []
+user_id: tzipp

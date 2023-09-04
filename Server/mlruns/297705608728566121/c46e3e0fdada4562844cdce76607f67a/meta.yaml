@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/c46e3e0fdada4562844cdce76607f67a/artifacts
+end_time: 1693736631062
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: c46e3e0fdada4562844cdce76607f67a
+run_name: abundant-colt-890
+run_uuid: c46e3e0fdada4562844cdce76607f67a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693736630726
+status: 3
+tags: []
+user_id: tzipp

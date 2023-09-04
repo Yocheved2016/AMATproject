@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/c4841f4072ad4265b738e68d5b9b8216/artifacts
+end_time: 1693818205745
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: c4841f4072ad4265b738e68d5b9b8216
+run_name: gregarious-colt-748
+run_uuid: c4841f4072ad4265b738e68d5b9b8216
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693818205526
+status: 3
+tags: []
+user_id: tzipp

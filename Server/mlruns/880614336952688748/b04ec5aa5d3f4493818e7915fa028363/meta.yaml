@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/b04ec5aa5d3f4493818e7915fa028363/artifacts
+end_time: 1693734119454
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: b04ec5aa5d3f4493818e7915fa028363
+run_name: vaunted-koi-956
+run_uuid: b04ec5aa5d3f4493818e7915fa028363
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693734119259
+status: 3
+tags: []
+user_id: tzipp

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/cbb9901078964fcc9be2279253dbbe45/artifacts
+end_time: 1693737034914
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: cbb9901078964fcc9be2279253dbbe45
+run_name: auspicious-finch-761
+run_uuid: cbb9901078964fcc9be2279253dbbe45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693737034720
+status: 3
+tags: []
+user_id: tzipp

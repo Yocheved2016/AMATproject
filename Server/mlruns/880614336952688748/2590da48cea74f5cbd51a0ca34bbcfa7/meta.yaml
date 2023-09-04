@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/2590da48cea74f5cbd51a0ca34bbcfa7/artifacts
+end_time: 1693733354892
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 2590da48cea74f5cbd51a0ca34bbcfa7
+run_name: exultant-mule-524
+run_uuid: 2590da48cea74f5cbd51a0ca34bbcfa7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693733354617
+status: 3
+tags: []
+user_id: tzipp

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/da05b657dac145c4934d1ba211024025/artifacts
+end_time: 1693817903263
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: da05b657dac145c4934d1ba211024025
+run_name: efficient-vole-425
+run_uuid: da05b657dac145c4934d1ba211024025
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693817902996
+status: 3
+tags: []
+user_id: tzipp

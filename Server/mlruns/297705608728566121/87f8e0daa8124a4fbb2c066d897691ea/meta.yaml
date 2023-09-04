@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/87f8e0daa8124a4fbb2c066d897691ea/artifacts
+end_time: 1693817712541
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 87f8e0daa8124a4fbb2c066d897691ea
+run_name: gifted-cow-203
+run_uuid: 87f8e0daa8124a4fbb2c066d897691ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693817711712
+status: 3
+tags: []
+user_id: tzipp

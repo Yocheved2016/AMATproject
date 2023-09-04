@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/6b575b749a3f44dc8e803621733dd592/artifacts
+end_time: 1693733981968
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 6b575b749a3f44dc8e803621733dd592
+run_name: burly-kite-49
+run_uuid: 6b575b749a3f44dc8e803621733dd592
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693733981766
+status: 3
+tags: []
+user_id: tzipp

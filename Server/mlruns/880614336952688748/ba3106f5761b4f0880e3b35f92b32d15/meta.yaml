@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/ba3106f5761b4f0880e3b35f92b32d15/artifacts
+end_time: 1693734108907
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: ba3106f5761b4f0880e3b35f92b32d15
+run_name: delightful-squid-801
+run_uuid: ba3106f5761b4f0880e3b35f92b32d15
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693734108626
+status: 3
+tags: []
+user_id: tzipp

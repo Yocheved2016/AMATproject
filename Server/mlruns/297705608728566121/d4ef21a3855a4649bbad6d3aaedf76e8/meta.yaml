@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/d4ef21a3855a4649bbad6d3aaedf76e8/artifacts
+end_time: 1693817854384
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: d4ef21a3855a4649bbad6d3aaedf76e8
+run_name: valuable-panda-178
+run_uuid: d4ef21a3855a4649bbad6d3aaedf76e8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693817854040
+status: 3
+tags: []
+user_id: tzipp

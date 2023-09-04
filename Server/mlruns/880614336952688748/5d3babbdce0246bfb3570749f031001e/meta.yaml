@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/5d3babbdce0246bfb3570749f031001e/artifacts
+end_time: 1693733379570
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 5d3babbdce0246bfb3570749f031001e
+run_name: gifted-deer-321
+run_uuid: 5d3babbdce0246bfb3570749f031001e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693733379373
+status: 3
+tags: []
+user_id: tzipp

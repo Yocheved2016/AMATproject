@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/733986c5ea2143e5ab4c136b2cbc9c18/artifacts
+end_time: 1693817919861
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 733986c5ea2143e5ab4c136b2cbc9c18
+run_name: rebellious-skink-367
+run_uuid: 733986c5ea2143e5ab4c136b2cbc9c18
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693817919583
+status: 3
+tags: []
+user_id: tzipp

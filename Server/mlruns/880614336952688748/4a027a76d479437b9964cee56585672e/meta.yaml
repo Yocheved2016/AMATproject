@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/4a027a76d479437b9964cee56585672e/artifacts
+end_time: 1693733773218
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 4a027a76d479437b9964cee56585672e
+run_name: angry-conch-330
+run_uuid: 4a027a76d479437b9964cee56585672e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693733772966
+status: 3
+tags: []
+user_id: tzipp

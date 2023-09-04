@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/19b8652e4cae4bfe844ac409db1e8786/artifacts
+end_time: 1693733062836
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 19b8652e4cae4bfe844ac409db1e8786
+run_name: wise-hare-365
+run_uuid: 19b8652e4cae4bfe844ac409db1e8786
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693733061907
+status: 3
+tags: []
+user_id: tzipp

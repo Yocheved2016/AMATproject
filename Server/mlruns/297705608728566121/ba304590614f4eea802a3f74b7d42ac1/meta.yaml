@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/ba304590614f4eea802a3f74b7d42ac1/artifacts
+end_time: 1693736751708
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: ba304590614f4eea802a3f74b7d42ac1
+run_name: salty-flea-624
+run_uuid: ba304590614f4eea802a3f74b7d42ac1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693736751350
+status: 3
+tags: []
+user_id: tzipp

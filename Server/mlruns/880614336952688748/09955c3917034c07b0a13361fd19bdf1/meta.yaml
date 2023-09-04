@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/09955c3917034c07b0a13361fd19bdf1/artifacts
+end_time: 1693736312296
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 09955c3917034c07b0a13361fd19bdf1
+run_name: upbeat-bass-197
+run_uuid: 09955c3917034c07b0a13361fd19bdf1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693736311508
+status: 3
+tags: []
+user_id: tzipp

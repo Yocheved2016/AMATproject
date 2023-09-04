@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/95c5f6b696b246b59e4a8072b9f31395/artifacts
+end_time: 1693817979677
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 95c5f6b696b246b59e4a8072b9f31395
+run_name: unleashed-whale-134
+run_uuid: 95c5f6b696b246b59e4a8072b9f31395
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693817979318
+status: 3
+tags: []
+user_id: tzipp

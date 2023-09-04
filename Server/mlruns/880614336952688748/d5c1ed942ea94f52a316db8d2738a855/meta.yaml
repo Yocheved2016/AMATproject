@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/d5c1ed942ea94f52a316db8d2738a855/artifacts
+end_time: 1693733252864
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: d5c1ed942ea94f52a316db8d2738a855
+run_name: adventurous-hog-880
+run_uuid: d5c1ed942ea94f52a316db8d2738a855
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693733252597
+status: 3
+tags: []
+user_id: tzipp

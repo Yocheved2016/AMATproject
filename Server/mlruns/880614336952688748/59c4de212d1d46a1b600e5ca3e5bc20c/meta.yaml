@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/59c4de212d1d46a1b600e5ca3e5bc20c/artifacts
+end_time: 1693733990894
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 59c4de212d1d46a1b600e5ca3e5bc20c
+run_name: painted-moth-712
+run_uuid: 59c4de212d1d46a1b600e5ca3e5bc20c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693733990715
+status: 3
+tags: []
+user_id: tzipp

@@ -47,8 +47,6 @@ def preprocess_image(image):
         img = cv2.imdecode(np.frombuffer(image_content, dtype=np.uint8), cv2.IMREAD_COLOR)
         img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)  # Convert from BGR to RGB format
         img = resize_image(img)
-        img = normalize_and_standarlize(img)
-        img = np.expand_dims(img, axis=0)
         return img
     except Exception as e:
         logging.error(f"Error in preprocess_image: {str(e)}")
@@ -66,6 +64,8 @@ def anomalys_detection(image):
 def predict_image(image_content):
     try:
         img = preprocess_image(image_content)
+        img = normalize_and_standarlize(img)
+        img = np.expand_dims(img, axis=0)
         # is_anomaly=anomalys_detection(img)
         # if is_anomaly==True:
         #     return 'ood'
@@ -79,12 +79,11 @@ def predict_image(image_content):
 
 
 def calculate_average_entropy_and_histogram(image):
-    image_array = np.array(image)
 
     avg_histograms = np.zeros((3, 10))
 
     for channel in range(3):
-        pixel_values = image_array[:, :, channel].flatten()
+        pixel_values = image[:, :, channel].flatten()
         histogram, _ = np.histogram(pixel_values, bins=10, range=(0, 256))
         avg_histograms[channel] = histogram
 
@@ -102,7 +101,16 @@ def get_avg_histogram(label):
     avg_histogram = loaded_data[str(label)]
     return avg_histogram
 
-def get_distance(image,prediction,img_histogram):
-    avg_histogram=get_avg_histogram(prediction)
-    distance = np.sqrt(np.sum((img_histogram - avg_histogram)**2))
-    return distance
+
+def get_distance(prediction, img_histogram):
+    avg_histogram = get_avg_histogram(prediction)
+
+    channel_distances = []
+    for i in range(3):
+        channel_distance = np.sqrt(np.sum((avg_histogram[i] - img_histogram[i]) ** 2))
+        channel_distances.append(channel_distance)
+
+    # Calculate the average distance
+    average_distance = np.mean(channel_distances)
+
+    return average_distance

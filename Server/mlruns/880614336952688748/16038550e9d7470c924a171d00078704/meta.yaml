@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/16038550e9d7470c924a171d00078704/artifacts
+end_time: 1693734046629
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 16038550e9d7470c924a171d00078704
+run_name: legendary-shrike-590
+run_uuid: 16038550e9d7470c924a171d00078704
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693734045814
+status: 3
+tags: []
+user_id: tzipp

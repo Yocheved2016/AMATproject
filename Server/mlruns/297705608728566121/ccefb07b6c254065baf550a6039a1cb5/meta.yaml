@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/ccefb07b6c254065baf550a6039a1cb5/artifacts
+end_time: 1693817827909
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: ccefb07b6c254065baf550a6039a1cb5
+run_name: wistful-duck-342
+run_uuid: ccefb07b6c254065baf550a6039a1cb5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693817827609
+status: 3
+tags: []
+user_id: tzipp
