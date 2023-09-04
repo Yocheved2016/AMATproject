@@ -50,11 +50,13 @@ def predict(image):
     return f' {predicted_class}.'
 
 def user_feedback(image, correctness, correct_class=None):
-    # response = requests.post("http://localhost:8000/send_feedback", {image: image,
-    #                                                                  correctness: correctness,
-    #                                                                  correct_class: correct_class})
-    # print(response)
-    pass
+    image_cv2 = np.array(image)
+    image_bytes = cv2.imencode('.jpg', image_cv2)[1].tobytes()
+    image_file = BytesIO(image_bytes)
+    response = requests.post("http://localhost:8000/send_feedback", {files={"image": image_file},
+                                                                     correct_class: correct_class})
+    
+    
 
 
 classes = ["airplane", "automobile", "bird", "cat", "deer", "dog", "frog", "horse", "ship", "truck", "fish",
