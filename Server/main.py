@@ -37,7 +37,7 @@ async def predict(image: UploadFile):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.post("/incorrectPrediction")
+@app.post("/send_feedback")
 async def incorrect_prediction(image: UploadFile,correct_class):
     image_data = await image.read()
     # Convert the image data to a PIL Image
