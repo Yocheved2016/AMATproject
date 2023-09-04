@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/e46be676a4b04c01857b4fef4950c982/artifacts
+end_time: 1693817938063
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: e46be676a4b04c01857b4fef4950c982
+run_name: respected-seal-398
+run_uuid: e46be676a4b04c01857b4fef4950c982
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693817937815
+status: 3
+tags: []
+user_id: tzipp

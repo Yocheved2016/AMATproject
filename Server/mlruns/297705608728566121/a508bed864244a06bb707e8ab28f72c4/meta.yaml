@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/a508bed864244a06bb707e8ab28f72c4/artifacts
+end_time: 1693736929004
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: a508bed864244a06bb707e8ab28f72c4
+run_name: dashing-bird-590
+run_uuid: a508bed864244a06bb707e8ab28f72c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693736928749
+status: 3
+tags: []
+user_id: tzipp

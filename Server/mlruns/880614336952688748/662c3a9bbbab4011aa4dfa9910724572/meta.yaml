@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/662c3a9bbbab4011aa4dfa9910724572/artifacts
+end_time: 1693733930172
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 662c3a9bbbab4011aa4dfa9910724572
+run_name: burly-dog-37
+run_uuid: 662c3a9bbbab4011aa4dfa9910724572
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693733929651
+status: 3
+tags: []
+user_id: tzipp

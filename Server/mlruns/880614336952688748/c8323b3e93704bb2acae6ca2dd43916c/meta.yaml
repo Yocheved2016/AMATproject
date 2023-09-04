@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/c8323b3e93704bb2acae6ca2dd43916c/artifacts
+end_time: 1693733344644
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: c8323b3e93704bb2acae6ca2dd43916c
+run_name: able-hound-37
+run_uuid: c8323b3e93704bb2acae6ca2dd43916c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693733344342
+status: 3
+tags: []
+user_id: tzipp

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/cf0200dc64a842aba2fd70293aa93bc3/artifacts
+end_time: 1693818215125
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: cf0200dc64a842aba2fd70293aa93bc3
+run_name: trusting-bass-938
+run_uuid: cf0200dc64a842aba2fd70293aa93bc3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693818214864
+status: 3
+tags: []
+user_id: tzipp

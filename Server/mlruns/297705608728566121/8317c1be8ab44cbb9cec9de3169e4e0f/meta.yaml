@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/8317c1be8ab44cbb9cec9de3169e4e0f/artifacts
+end_time: 1693817740592
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 8317c1be8ab44cbb9cec9de3169e4e0f
+run_name: delightful-hen-393
+run_uuid: 8317c1be8ab44cbb9cec9de3169e4e0f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693817740419
+status: 3
+tags: []
+user_id: tzipp

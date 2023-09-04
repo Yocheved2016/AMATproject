@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/7395d7ae732d43d5b81e0b5b0f63055e/artifacts
+end_time: 1693818059941
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 7395d7ae732d43d5b81e0b5b0f63055e
+run_name: unleashed-turtle-614
+run_uuid: 7395d7ae732d43d5b81e0b5b0f63055e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693818059490
+status: 3
+tags: []
+user_id: tzipp

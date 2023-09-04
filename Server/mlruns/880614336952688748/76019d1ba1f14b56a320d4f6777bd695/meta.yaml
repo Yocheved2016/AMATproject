@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/76019d1ba1f14b56a320d4f6777bd695/artifacts
+end_time: 1693733225172
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 76019d1ba1f14b56a320d4f6777bd695
+run_name: amusing-crab-252
+run_uuid: 76019d1ba1f14b56a320d4f6777bd695
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693733224893
+status: 3
+tags: []
+user_id: tzipp

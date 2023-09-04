@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/ed1ba97d94644b59b1354fd1882f0e6f/artifacts
+end_time: 1693736671343
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: ed1ba97d94644b59b1354fd1882f0e6f
+run_name: indecisive-doe-249
+run_uuid: ed1ba97d94644b59b1354fd1882f0e6f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693736671172
+status: 3
+tags: []
+user_id: tzipp

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/187305abb7764248ae41c3a18e1f96e1/artifacts
+end_time: 1693736922257
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 187305abb7764248ae41c3a18e1f96e1
+run_name: classy-snail-577
+run_uuid: 187305abb7764248ae41c3a18e1f96e1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693736922016
+status: 3
+tags: []
+user_id: tzipp

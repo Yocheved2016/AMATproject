@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/9a9045cd42a4465093d6dc92644a1082/artifacts
+end_time: 1693736816338
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 9a9045cd42a4465093d6dc92644a1082
+run_name: fortunate-colt-116
+run_uuid: 9a9045cd42a4465093d6dc92644a1082
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693736816054
+status: 3
+tags: []
+user_id: tzipp

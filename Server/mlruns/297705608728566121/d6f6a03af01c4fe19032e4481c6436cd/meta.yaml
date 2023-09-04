@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/d6f6a03af01c4fe19032e4481c6436cd/artifacts
+end_time: 1693736704829
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: d6f6a03af01c4fe19032e4481c6436cd
+run_name: caring-ox-992
+run_uuid: d6f6a03af01c4fe19032e4481c6436cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693736704532
+status: 3
+tags: []
+user_id: tzipp

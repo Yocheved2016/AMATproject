@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/15e0ec97097f4241bc40e3e07307e8e5/artifacts
+end_time: 1693818013618
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 15e0ec97097f4241bc40e3e07307e8e5
+run_name: sincere-jay-864
+run_uuid: 15e0ec97097f4241bc40e3e07307e8e5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693818013366
+status: 3
+tags: []
+user_id: tzipp

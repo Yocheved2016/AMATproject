@@ -59,9 +59,9 @@ def update_graph(selected_class):
     confidence_measurements = class_data["confidence_measurements"]
 
     # Calculate differences from initial value
-    hist_differences = [measurement - initial_histogram for measurement in histogram_measurements]
-    entropy_differences = [measurement - initial_entropy for measurement in entropy_measurements]
-    confidence_differences = [measurement - initial_confidence for measurement in confidence_measurements]
+    hist_differences = histogram_measurements
+    entropy_differences = entropy_measurements
+    confidence_differences = confidence_measurements
     # Calculate entropy differences from initial entropy
     # entropy_values = [initial_entropy] + histogram_measurements  # Add initial entropy as first value
     # entropy_differences = [entropy_value - initial_entropy for entropy_value in entropy_values]
@@ -69,11 +69,11 @@ def update_graph(selected_class):
     # Create the graph figure for differences
     graph_figure = {
         'data': [
-            go.Scatter(x=list(range(len(histogram_measurements))), y=hist_differences, mode='lines+markers',
+            go.Scatter(x=list(range(len(histogram_measurements))), y=hist_differences, mode='markers',
                        name='Differences')
         ],
         'layout': {
-            'title': f'Difference from average histogram  {selected_class}',
+            'title': f'Difference from average histogram {selected_class}',
             'xaxis': {'title': 'Time'},
             'yaxis': {'title': 'Difference'}
         }
@@ -82,18 +82,21 @@ def update_graph(selected_class):
     # Create the graph figure for entropy differences
     entropy_diff_figure = {
         'data': [
-            go.Scatter(x=list(range(len(entropy_measurements))), y=entropy_differences, mode='lines+markers',
-                       name='Entropy Differences')
+            go.Scatter(x=list(range(len(entropy_measurements))), y=entropy_differences, mode='markers',
+                       ),
+            go.Scatter(x=[0, len(entropy_measurements) - 1], y=[initial_entropy, initial_entropy],
+                       mode='lines', line=dict(color='red', ))
         ],
         'layout': {
             'title': f'Entropy Differences for {selected_class}',
             'xaxis': {'title': 'Time'},
-            'yaxis': {'title': 'Entropy Difference'}
+            'yaxis': {'title': 'Entropy Difference'},
+            'showlegend': False
         }
     }
     confidence_diff_figure = {
         'data': [
-            go.Scatter(x=list(range(len(confidence_measurements))), y=confidence_differences, mode='lines+markers',
+            go.Scatter(x=list(range(len(confidence_measurements))), y=confidence_differences, mode='markers',
                        name='Confidence Differences')
         ],
         'layout': {

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/dc4a2982692b43f799d4296bc7b5273f/artifacts
+end_time: 1693818063934
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: dc4a2982692b43f799d4296bc7b5273f
+run_name: adorable-gnat-785
+run_uuid: dc4a2982692b43f799d4296bc7b5273f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693818063597
+status: 3
+tags: []
+user_id: tzipp

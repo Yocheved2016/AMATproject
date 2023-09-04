@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/61a91591354c4423a7d11e2021836796/artifacts
+end_time: 1693734031040
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 61a91591354c4423a7d11e2021836796
+run_name: respected-moose-216
+run_uuid: 61a91591354c4423a7d11e2021836796
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693734030699
+status: 3
+tags: []
+user_id: tzipp

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/eca68db99e6f4709ad6fbab3a0ac0bfb/artifacts
+end_time: 1693736638262
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: eca68db99e6f4709ad6fbab3a0ac0bfb
+run_name: bouncy-hen-237
+run_uuid: eca68db99e6f4709ad6fbab3a0ac0bfb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693736637973
+status: 3
+tags: []
+user_id: tzipp

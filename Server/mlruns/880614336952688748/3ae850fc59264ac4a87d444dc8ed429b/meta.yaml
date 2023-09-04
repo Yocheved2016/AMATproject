@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/3ae850fc59264ac4a87d444dc8ed429b/artifacts
+end_time: 1693734185135
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 3ae850fc59264ac4a87d444dc8ed429b
+run_name: sneaky-moose-301
+run_uuid: 3ae850fc59264ac4a87d444dc8ed429b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693734184812
+status: 3
+tags: []
+user_id: tzipp

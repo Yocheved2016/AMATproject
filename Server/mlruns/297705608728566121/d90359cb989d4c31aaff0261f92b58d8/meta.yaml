@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/d90359cb989d4c31aaff0261f92b58d8/artifacts
+end_time: 1693736684593
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: d90359cb989d4c31aaff0261f92b58d8
+run_name: capricious-crane-640
+run_uuid: d90359cb989d4c31aaff0261f92b58d8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693736684392
+status: 3
+tags: []
+user_id: tzipp

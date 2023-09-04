@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/7e646b2957054f5da0fbb3f530764a82/artifacts
+end_time: 1693736677582
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 7e646b2957054f5da0fbb3f530764a82
+run_name: kindly-fawn-73
+run_uuid: 7e646b2957054f5da0fbb3f530764a82
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693736677419
+status: 3
+tags: []
+user_id: tzipp

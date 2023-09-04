@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/303c8c28d2f14d4c97cfd1b106d37cdc/artifacts
+end_time: 1693733412771
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 303c8c28d2f14d4c97cfd1b106d37cdc
+run_name: amusing-mink-303
+run_uuid: 303c8c28d2f14d4c97cfd1b106d37cdc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693733412524
+status: 3
+tags: []
+user_id: tzipp

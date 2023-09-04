@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/f58f87bcd90949e6a3c500c38ee3edb1/artifacts
+end_time: 1693737005255
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: f58f87bcd90949e6a3c500c38ee3edb1
+run_name: unequaled-snipe-523
+run_uuid: f58f87bcd90949e6a3c500c38ee3edb1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693737004548
+status: 3
+tags: []
+user_id: tzipp

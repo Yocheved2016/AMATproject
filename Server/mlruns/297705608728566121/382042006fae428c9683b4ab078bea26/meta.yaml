@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/382042006fae428c9683b4ab078bea26/artifacts
+end_time: 1693736770125
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 382042006fae428c9683b4ab078bea26
+run_name: flawless-dove-807
+run_uuid: 382042006fae428c9683b4ab078bea26
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693736769838
+status: 3
+tags: []
+user_id: tzipp

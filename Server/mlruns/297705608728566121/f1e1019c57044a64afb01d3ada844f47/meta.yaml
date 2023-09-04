@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/f1e1019c57044a64afb01d3ada844f47/artifacts
+end_time: 1693817811676
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: f1e1019c57044a64afb01d3ada844f47
+run_name: overjoyed-pig-619
+run_uuid: f1e1019c57044a64afb01d3ada844f47
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693817811376
+status: 3
+tags: []
+user_id: tzipp

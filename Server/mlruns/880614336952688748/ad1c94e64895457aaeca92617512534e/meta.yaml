@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/ad1c94e64895457aaeca92617512534e/artifacts
+end_time: 1693733443922
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: ad1c94e64895457aaeca92617512534e
+run_name: thundering-calf-711
+run_uuid: ad1c94e64895457aaeca92617512534e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693733443551
+status: 3
+tags: []
+user_id: tzipp

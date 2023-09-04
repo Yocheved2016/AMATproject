@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/8bb5b944a9bf41c5b668730d77f7cba5/artifacts
+end_time: 1693734073886
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 8bb5b944a9bf41c5b668730d77f7cba5
+run_name: caring-stork-100
+run_uuid: 8bb5b944a9bf41c5b668730d77f7cba5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693734073603
+status: 3
+tags: []
+user_id: tzipp

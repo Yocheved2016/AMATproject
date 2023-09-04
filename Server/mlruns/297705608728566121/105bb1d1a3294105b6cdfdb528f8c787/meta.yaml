@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/105bb1d1a3294105b6cdfdb528f8c787/artifacts
+end_time: 1693736690224
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 105bb1d1a3294105b6cdfdb528f8c787
+run_name: bedecked-wren-352
+run_uuid: 105bb1d1a3294105b6cdfdb528f8c787
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693736690069
+status: 3
+tags: []
+user_id: tzipp

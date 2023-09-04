@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/a5a60d90d23e4bd2bc5f59ae717688c2/artifacts
+end_time: 1693733420306
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: a5a60d90d23e4bd2bc5f59ae717688c2
+run_name: chill-gnat-503
+run_uuid: a5a60d90d23e4bd2bc5f59ae717688c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693733420051
+status: 3
+tags: []
+user_id: tzipp

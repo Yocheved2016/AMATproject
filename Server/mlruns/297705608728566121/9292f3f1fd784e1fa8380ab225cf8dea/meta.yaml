@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/9292f3f1fd784e1fa8380ab225cf8dea/artifacts
+end_time: 1693818032867
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 9292f3f1fd784e1fa8380ab225cf8dea
+run_name: skittish-doe-741
+run_uuid: 9292f3f1fd784e1fa8380ab225cf8dea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693818032572
+status: 3
+tags: []
+user_id: tzipp

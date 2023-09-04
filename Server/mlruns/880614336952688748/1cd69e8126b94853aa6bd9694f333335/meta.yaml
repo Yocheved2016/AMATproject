@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/1cd69e8126b94853aa6bd9694f333335/artifacts
+end_time: 1693733428500
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 1cd69e8126b94853aa6bd9694f333335
+run_name: fun-ant-63
+run_uuid: 1cd69e8126b94853aa6bd9694f333335
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693733428227
+status: 3
+tags: []
+user_id: tzipp

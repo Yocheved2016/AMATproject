@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/1f3ffa6e42c449ebbeb1c03489dbdcb8/artifacts
+end_time: 1693818107364
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 1f3ffa6e42c449ebbeb1c03489dbdcb8
+run_name: zealous-mouse-885
+run_uuid: 1f3ffa6e42c449ebbeb1c03489dbdcb8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693818106895
+status: 3
+tags: []
+user_id: tzipp

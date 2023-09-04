@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/938422d6f3974a65892731d73484c6d9/artifacts
+end_time: 1693817871903
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 938422d6f3974a65892731d73484c6d9
+run_name: capricious-conch-505
+run_uuid: 938422d6f3974a65892731d73484c6d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693817871638
+status: 3
+tags: []
+user_id: tzipp

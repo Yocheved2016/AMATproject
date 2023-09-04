@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/4ffc7fe86dc144499637adea8aca3b78/artifacts
+end_time: 1693818004935
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 4ffc7fe86dc144499637adea8aca3b78
+run_name: auspicious-duck-520
+run_uuid: 4ffc7fe86dc144499637adea8aca3b78
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693818004569
+status: 3
+tags: []
+user_id: tzipp

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/1270cbc6e30e41a18f8cb17383e11740/artifacts
+end_time: 1693817995666
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 1270cbc6e30e41a18f8cb17383e11740
+run_name: amazing-jay-850
+run_uuid: 1270cbc6e30e41a18f8cb17383e11740
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693817995329
+status: 3
+tags: []
+user_id: tzipp

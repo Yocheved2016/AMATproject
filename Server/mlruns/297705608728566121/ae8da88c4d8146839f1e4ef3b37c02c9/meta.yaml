@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/ae8da88c4d8146839f1e4ef3b37c02c9/artifacts
+end_time: 1693818091947
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: ae8da88c4d8146839f1e4ef3b37c02c9
+run_name: marvelous-frog-105
+run_uuid: ae8da88c4d8146839f1e4ef3b37c02c9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693818091448
+status: 3
+tags: []
+user_id: tzipp

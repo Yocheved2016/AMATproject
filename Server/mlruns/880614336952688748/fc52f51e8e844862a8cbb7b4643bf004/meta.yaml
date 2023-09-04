@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/fc52f51e8e844862a8cbb7b4643bf004/artifacts
+end_time: 1693733965888
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: fc52f51e8e844862a8cbb7b4643bf004
+run_name: languid-chimp-989
+run_uuid: fc52f51e8e844862a8cbb7b4643bf004
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693733965693
+status: 3
+tags: []
+user_id: tzipp

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/880614336952688748/534d5b005f004edabea59cd993ac008c/artifacts
+end_time: 1693733976209
+entry_point_name: ''
+experiment_id: '880614336952688748'
+lifecycle_stage: active
+run_id: 534d5b005f004edabea59cd993ac008c
+run_name: mysterious-hog-903
+run_uuid: 534d5b005f004edabea59cd993ac008c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693733975981
+status: 3
+tags: []
+user_id: tzipp

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/6679182f88ba44acb2c5b2b642c5dd04/artifacts
+end_time: 1693817952786
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 6679182f88ba44acb2c5b2b642c5dd04
+run_name: victorious-ram-145
+run_uuid: 6679182f88ba44acb2c5b2b642c5dd04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693817952562
+status: 3
+tags: []
+user_id: tzipp

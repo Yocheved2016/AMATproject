@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/13e1abe948c04ebc89098bbd0c7de9bf/artifacts
+end_time: 1693736759239
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 13e1abe948c04ebc89098bbd0c7de9bf
+run_name: powerful-sheep-155
+run_uuid: 13e1abe948c04ebc89098bbd0c7de9bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693736758921
+status: 3
+tags: []
+user_id: tzipp

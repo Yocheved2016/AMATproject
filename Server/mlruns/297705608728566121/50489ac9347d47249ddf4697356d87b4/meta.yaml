@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/50489ac9347d47249ddf4697356d87b4/artifacts
+end_time: 1693818117817
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: 50489ac9347d47249ddf4697356d87b4
+run_name: delicate-donkey-449
+run_uuid: 50489ac9347d47249ddf4697356d87b4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693818117551
+status: 3
+tags: []
+user_id: tzipp

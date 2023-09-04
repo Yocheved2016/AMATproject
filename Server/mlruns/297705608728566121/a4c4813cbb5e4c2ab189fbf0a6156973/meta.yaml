@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/a4c4813cbb5e4c2ab189fbf0a6156973/artifacts
+end_time: 1693817910749
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: a4c4813cbb5e4c2ab189fbf0a6156973
+run_name: able-dolphin-656
+run_uuid: a4c4813cbb5e4c2ab189fbf0a6156973
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693817910544
+status: 3
+tags: []
+user_id: tzipp

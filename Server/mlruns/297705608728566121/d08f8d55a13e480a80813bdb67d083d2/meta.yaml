@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tzipp/Documents/AMATproject/Server/mlruns/297705608728566121/d08f8d55a13e480a80813bdb67d083d2/artifacts
+end_time: 1693736714420
+entry_point_name: ''
+experiment_id: '297705608728566121'
+lifecycle_stage: active
+run_id: d08f8d55a13e480a80813bdb67d083d2
+run_name: masked-hare-245
+run_uuid: d08f8d55a13e480a80813bdb67d083d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693736714223
+status: 3
+tags: []
+user_id: tzipp
