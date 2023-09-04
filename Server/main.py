@@ -51,7 +51,7 @@ async def incorrect_prediction(image: UploadFile,correct_class):
     # checking if the directory exist or not.  
     if not os.path.exists( f'Candidates/{correct_class}'):
         # then create it.
-        os.makedirs("path/to/demo_folder")
+        os.makedirs(f'Candidates/{correct_class}')
     image_path = f'Candidates/{correct_class}/{random_img_name}.jpg'
     pil_image.save(image_path)
 
